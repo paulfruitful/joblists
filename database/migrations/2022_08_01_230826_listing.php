@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('photo');
             $table->string('email');
+            $table->string("tags");
             $table->foreignId('user_id')->onDelete('cascade');
             $table->timestamps();
 
@@ -34,6 +35,9 @@ return new class extends Migration
      */
     public function down()
     {
-        //
+        //  public function down()
+    {
+        Schema::dropIfExists('listing');
+    }
     }
 };
