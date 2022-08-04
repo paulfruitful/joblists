@@ -35,7 +35,7 @@
                     <div class="flex items-center justify-between w-full md:w-auto">
                       <a href="#">
                         <span class="sr-only">Workflow</span>
-                        <img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                        <img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png">
                       </a>
                       <div class="-mr-2 flex items-center md:hidden">
                         <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -49,15 +49,14 @@
                     </div>
                   </div>
                   <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
+                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">About</a>
       
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
       
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
+                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Featured Jobs</a>
       
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
+                    <a href="#" class="font-medium text-red-500 hover:text-indigo-900">Register</a>
       
-                    <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
+                    <a href="#" class="font-medium text-red-600 hover:text-indigo500">Log in</a>
                   </div>
                 </nav>
               </div>
@@ -105,16 +104,16 @@
             <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="sm:text-center lg:text-left">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span class="block xl:inline">Data to enrich your</span>
-                  <span class="block text-indigo-600 xl:inline">online business</span>
+                  <span class="block xl:inline">Get The Right</span>
+                  <span class="block text-red-600 xl:inline"> Job Today</span>
                 </h1>
-                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Are You Looking For A Job? <br> Joblists got your back. We are a job sharing platform that aims at giving junior developers short-term contracts and internship roles.</p>
                 <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div class="rounded-md shadow">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
+                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Sign Up </a>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Live demo </a>
+                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black-700 bg-red-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Sign In </a>
                   </div>
                 </div>
               </div>
