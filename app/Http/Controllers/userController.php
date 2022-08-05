@@ -21,7 +21,7 @@ class userController extends Controller
           'password'=>['required','min:6']
         ]
         );
-        $formData->password=bcrypt($formData['password']);
+        $formData['password']=bcrypt($formData['password']);
         $user=User::create($formData);
         auth->login($user);
      return redirect('/');
