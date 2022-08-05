@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+use App\Http\Controllers\userController;
 Route::get('/', function () {
     return view('listings');
 });
-Route::get('/register',[userController::class,'register']);
+Route::get('/register',[userController::class,'create']);
