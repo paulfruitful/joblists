@@ -22,15 +22,26 @@
         </style>
     </head>
 <body>
-    <form class="w-full max-w-sm mx-auto m-48 p-18">
-        <div class="flex flex-wrap -mx-3 mb-6">
-          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-              First Name
-            </label>
-            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-            <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-          </div>
+    <section class="dark:bg-gray-800 dark:text-gray-100">
+        <div class="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
+            <h1 class="text-4xl font-bold leading-none sm:text-5xl">Quisquam necessita vel
+                <span class="dark:text-violet-400">laborum doloribus</span>delectus
+            </h1>
+            <p class="px-8 mt-8 mb-12 text-lg">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
+            <div class="flex flex-wrap justify-center">
+                <button class="px-8 py-3 m-2 text-lg font-semibold rounded bg-red-700 text-white-500">Get started</button>
+                </div>
+        </div>
+    </section>
+    <form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-blue-400" id="register">
+        <div class="p-6"><p class="text-center text-red-500  text-2xl font-bold">Register</p></div>
+        <div class="flex flex-wrap -mx-6 mb-6">
+            <div class="w-full md:w-1/2 px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  First Name
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+              </div>
           <div class="w-full md:w-1/2 px-3">
             <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
               Last Name
