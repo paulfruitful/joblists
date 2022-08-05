@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use auth;
+
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
@@ -24,7 +24,7 @@ class userController extends Controller
         );
         $formData['password']=bcrypt($formData['password']);
         $user=User::create($formData);
-        auth->login($user);
+        auth()->login($user);
      return redirect('/');
     }
 }
