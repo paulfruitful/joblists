@@ -55,7 +55,7 @@
       
                     <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Featured Jobs</a>
       
-                    <a href="#" class="font-medium text-red-500 hover:text-indigo-900">Register</a>
+                    <a href="/register" class="font-medium text-red-500 hover:text-indigo-900">Register</a>
       
                     <a href="#" class="font-medium text-red-600 hover:text-indigo500">Log in</a>
                   </div>
@@ -111,7 +111,7 @@
                 <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Are You Looking For A Job? <br> Joblists got your back. We are a job sharing platform that aims at giving junior developers short-term contracts and internship roles.</p>
                 <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div class="rounded-md shadow">
-                    <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Sign Up </a>
+                    <a href="/register" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Sign Up </a>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
                     <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black-700 bg-red-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Sign In </a>

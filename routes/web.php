@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('listings');
 });
+Route::get('/register',[userController::class,'register']);
