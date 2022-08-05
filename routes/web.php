@@ -16,4 +16,7 @@ use App\Http\Controllers\userController;
 Route::get('/', function () {
     return view('listings');
 });
+//Gets the registration page
 Route::get('/register',[userController::class,'create']);
+//Stores the user profile in our database
+Route::post('/register',[userController::class,'store']);
