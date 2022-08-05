@@ -33,9 +33,9 @@
                 </div>
         </div>
     </section>
-    <form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-indigo-600" id="register">
+    <form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-indigo-600" id="register" action="/register" method="POST">
         <div class="p-6"><p class="text-center text-red-500  text-2xl font-bold">Register</p></div>
-        
+        @csrf
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
                 <label class="block uppercase tracking-wide text-indigo-700 text-xs font-bold mb-2" for="grid-password">
@@ -70,7 +70,7 @@
         <div class="md:flex md:items-center">
             <div class="md:w-1/3"></div>
             <div class="md:w-2/3">
-              <button class="shadow bg-red-600 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+              <button class="shadow bg-red-600 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
                 Sign Up
               </button>
             </div>
