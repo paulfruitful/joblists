@@ -33,4 +33,12 @@ class userController extends Controller
         $request->session()->regenerateToken();
         return redirect('/');
     }
+    public function login(Request $request){
+        $form_data=$request->validate(
+            [
+                'email'=>['email','required'],
+                'password'=>['required','min:6']
+            ]
+            );
+    }
 }
