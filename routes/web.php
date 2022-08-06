@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/register',[userController::class,'create']);
 //Stores the user profile in our database
 Route::post('/register',[userController::class,'store']);
+//User Logout route
+Route::get('/logout',[userController::class,'logout']);
