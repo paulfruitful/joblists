@@ -26,3 +26,5 @@ Route::get('/logout',[userController::class,'logout']);
 Route::get('/login',function(){
     return view('user.login');
 });
+//User login validation route
+Route::post('/login',[userController::class,'login']);
