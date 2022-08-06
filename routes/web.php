@@ -22,3 +22,7 @@ Route::get('/register',[userController::class,'create']);
 Route::post('/register',[userController::class,'store']);
 //User Logout route
 Route::get('/logout',[userController::class,'logout']);
+// User Login route and function controller
+Route::get('/login',function(){
+    return view('user.login');
+});
