@@ -27,12 +27,14 @@ class userController extends Controller
         auth()->login($user);
      return redirect('/');
     }
+    //User logout function
     public function logout(Request $request){
         auth()->logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect('/');
     }
+    // User login fuction
     public function login(Request $request){
         $form_data=$request->validate(
             [
@@ -40,5 +42,12 @@ class userController extends Controller
                 'password'=>['required','min:6']
             ]
             );
+            if(auth()->attempt($form_data)){
+                $request->session->regenerate();
+                return redirect('/');
+
+            }else{
+            return redirect('/')->withErrors(['email'=>'Invalid Login Details']);
+        }
     }
 }
