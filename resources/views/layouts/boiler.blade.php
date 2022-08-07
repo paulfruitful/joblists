@@ -60,7 +60,7 @@
       
                     <a href="/register" class="font-medium text-red-500 hover:text-indigo-900">Register</a>
       
-                    <a href="#" class="font-medium text-red-600 hover:text-indigo500">Log in</a>
+                    <a href="/login" class="font-medium text-red-600 hover:text-indigo500">Log in</a>
                   </div>
                 </nav>
               </div>

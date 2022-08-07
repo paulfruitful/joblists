@@ -22,19 +22,11 @@
         </style>
     </head>
 <body>
-<form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-indigo-600" id="register" action="/register" method="POST">
-    <div class="p-6"><p class="text-center text-red-500  text-2xl font-bold">Register</p></div>
+<form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-indigo-600" id="register" action="/login" method="POST">
+    <div class="p-6"><p class="text-center text-red-600  text-3xl font-bold">Login <span class="text-indigo-700">Now</span></p></div>
     @csrf
     <div class="flex flex-wrap -mx-3 mb-6">
-        <div class="w-full px-3">
-            <label class="block uppercase tracking-wide text-indigo-700 text-xs font-bold mb-2" for="grid-password">
-              Full Name
-            </label>
-            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="text" placeholder="John Doe" name="name">
-            @error('name')
-            <div class="w-full"><p class="text-red-500">{{$message}}</p></div>
-               @enderror
-        </div>
+     
         <div class="w-full px-3">
             <label class="block uppercase tracking-wide text-indigo-700 text-xs font-bold mb-2" for="grid-password">
               Email
@@ -59,8 +51,8 @@
     <div class="md:flex md:items-center">
         <div class="md:w-1/3"></div>
         <div class="md:w-2/3">
-          <button class="shadow bg-red-600 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
-            Sign Up
+          <button class="shadow bg-red-600 hover:bg-indigo-600 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+            Sign in
           </button>
         </div>
       </div>

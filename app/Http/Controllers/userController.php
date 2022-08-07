@@ -43,11 +43,11 @@ class userController extends Controller
             ]
             );
             if(auth()->attempt($form_data)){
-                $request->session->regenerate();
+                $request->session()->regenerate();
                 return redirect('/');
 
-            }else{
-            return redirect('/')->withErrors(['email'=>'Invalid Login Details']);
-        }
+            }
+            return back()->withErrors(['email'=>'Invalid Login Details'])->onlyInput('email');
+        
     }
 }
