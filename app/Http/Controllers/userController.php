@@ -25,14 +25,14 @@ class userController extends Controller
         $formData['password']=bcrypt($formData['password']);
         $user=User::create($formData);
         auth()->login($user);
-     return redirect('/');
+     return redirect('/')->with('success','Account Created Successfully');
     }
     //User logout function
     public function logout(Request $request){
         auth()->logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect('/');
+        return redirect('/')->with('success','Account Created Successfully');
     }
     // User login fuction
     public function login(Request $request){
@@ -44,7 +44,7 @@ class userController extends Controller
             );
             if(auth()->attempt($form_data)){
                 $request->session()->regenerate();
-                return redirect('/');
+                return redirect('/')->with('success','Account Created Successfully');
 
             }
             return back()->withErrors(['email'=>'Invalid Login Details'])->onlyInput('email');
