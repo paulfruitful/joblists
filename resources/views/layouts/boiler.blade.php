@@ -80,6 +80,7 @@ x-data="{open:false,menu:false, lokasi:false}">
     </div>
   </div>
 </nav>
+@include('components.hero')
    @yield('content')
  @else
     <div class="relative bg-white overflow-hidden">
