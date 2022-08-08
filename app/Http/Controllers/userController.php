@@ -42,9 +42,10 @@ class userController extends Controller
                 'password'=>['required','min:6']
             ]
             );
+            $user=User::where('email',$form_data['email']);
             if(auth()->attempt($form_data)){
                 $request->session()->regenerate();
-                return redirect('/');
+                return redirect('/')->with('user',$user);
 
             }
             return back()->withErrors(['email'=>'Invalid Login Details'])->onlyInput('email');
