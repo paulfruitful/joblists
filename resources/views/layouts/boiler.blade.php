@@ -38,10 +38,10 @@ x-data="{open:false,menu:false, lokasi:false}">
           </a>
           <div class="hidden lg:block lg:ml-2">
             <div class="flex">
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Location </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Article </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Recipe </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Promo </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-md leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Location </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-md leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Article </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-md leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Recipe </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-md leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Promo </a>
             </div>
           </div>
         </div>
