@@ -6,7 +6,7 @@
     </div>
     <div class="mb-12 lg:mb-0">
       <img
-        src="https://mdbootstrap.com/img/new/ecommerce/vertical/028.jpg"
+        src="https://www.lifewire.com/thmb/kXpBXHj4IwK5bA9ii_xVMHLvkZs=/1500x1000/filters:fill(auto,1)/Working-on-a-laptop-56770e2c3df78ccc15278af7.jpg"
         class="w-full rounded-lg shadow-lg"
         alt=""
       />
