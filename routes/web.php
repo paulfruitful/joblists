@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Http\Controllers\userController;
 Route::get('/', function () {
-    dd(session()->has());
     return view('listings');
 });
 //Gets the registration page
