@@ -28,7 +28,7 @@
 <nav 
 class="z-0 relative" 
 x-data="{open:false,menu:false, lokasi:false}">
-  <div class="relative z-10 bg-yellow-300 shadow">
+  <div class="relative z-10 bg-indigo-700 shadow">
     <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="flex items-center px-2 lg:px-0">
@@ -38,10 +38,10 @@ x-data="{open:false,menu:false, lokasi:false}">
           </a>
           <div class="hidden lg:block lg:ml-2">
             <div class="flex">
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-800 font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Location </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-800 font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Article </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-800 font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Recipe </a>
-              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-800 font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Promo </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Location </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Article </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Recipe </a>
+              <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-white font-semibold hover:bg-yellow-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Promo </a>
             </div>
           </div>
         </div>
