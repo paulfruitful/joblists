@@ -2,7 +2,7 @@
 class="relative overflow-hidden bg-no-repeat bg-cover"
 style="
   background-position: 50%;
-  background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+  background-image: url('https://www.lifewire.com/thmb/kXpBXHj4IwK5bA9ii_xVMHLvkZs=/1500x1000/filters:fill(auto,1)/Working-on-a-laptop-56770e2c3df78ccc15278af7.jpg');
   height: 500px;
 "
 >
