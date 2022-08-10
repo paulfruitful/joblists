@@ -8,8 +8,8 @@
     
 
 <div class="max-w-lg p-6">
-<div class="border-2 border-gray box-content block p-3 mb-12">
-   <a href="/{{$list->id}}"> <h2 class="text-2xl text-black" >{{$list->title}}</h2></a>
+<div class="border-2 border-gray box-content block p-3 flex hover:bg-black hover:border-white mb-6 shadow-lg shadow-black-250/10 ">
+   <a href="/{{$list->id}}"> <h2 class="text-2xl text-black hover:text-white " >{{$list->title}}</h2></a>
 </div>
 </div>
 @endforeach
