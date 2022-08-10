@@ -2,5 +2,8 @@
 @section('content')
 <div class="p-6">
     <x-listing-comp :listing="$list"/>
+    <div class="p-6">
+        {!!$list->links()!!}
+    </div>
 </div>
 @endsection
