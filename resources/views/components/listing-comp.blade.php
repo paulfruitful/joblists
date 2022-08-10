@@ -7,8 +7,8 @@
 @foreach ($listing as $list)
     
 
-<div class="max-w-lg p-6">
-<div class="border-2 border-gray box-content block p-6 flex hover:bg-black hover:border-white mb-6 shadow-lg shadow-black-500/40 w-full ">
+<div class="max-w-lg ">
+<div class="border-2 border-gray box-content block border-rounded p-3 mb-6 flex hover:bg-black hover:border-white w-screen shadow-lg shadow-black-500/40 w-full ">
    <a href="/{{$list->id}}"> <h2 class="text-2xl text-black hover:text-white " >{{$list->title}}</h2></a>
 </div>
 </div>
