@@ -13,5 +13,10 @@
 </div>
 </div>
 @endforeach
+
+    
+@else
+    
+ <div class="p-6"><p class="text-red-700">No Listings</p></div>
 @endif
     </div>
