@@ -14,8 +14,8 @@ class listControl extends Controller
      */
     public function index()
     {
-        $list=Listing::latest()->paginate(3)->get();
-        return view('pages.listing',['list'=>$list]);
+        $list=Listing::latest()->paginate(3);
+        return view('listings',['list'=>$list]);
     }
 
     /**
