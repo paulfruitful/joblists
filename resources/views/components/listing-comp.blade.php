@@ -1,6 +1,6 @@
 @props(['listing'])
 <div class="text-center">
-    <h1 class="text-black text-2xl">Current Job Listings</h1>
+    <h1 class="text-black text-2xl font-bold tracking-tight mb-12 ">Current Job Listings</h1>
 </div>
     <div>
         @if(count($listing)>1)
@@ -8,7 +8,7 @@
     
 
 <div class="max-w-lg p-6">
-<div class="border-2 border-gray box-content block p-3">
+<div class="border-2 border-gray box-content block p-3 mb-12">
    <a href="/{{$list->id}}"> <h2 class="text-2xl text-black" >{{$list->title}}</h2></a>
 </div>
 </div>
