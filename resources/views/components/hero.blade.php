@@ -16,13 +16,21 @@ style="
         Welcome To Joblists {{auth()->user()->name}}<br /><span class="text-2xl">A Platform For Posting Jobs And Getting Jobs</span>
       </h1>
       <a
-      href="#"
+      href="?page=1"
         class="inline-block px-7 py-3 border-2 border-white text-white font-medium  text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
         data-mdb-ripple="true"
         data-mdb-ripple-color="light"
       >
-        Got A Job To List
+        Get A Job
     </a>
+    <a
+    href="#"
+      class="inline-block px-7 ml-2 py-3 border-2 border-white text-white font-medium  text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      data-mdb-ripple="true"
+      data-mdb-ripple-color="light"
+    >
+      Got A Job To List
+  </a>
     </div>
   </div>
 </div>
