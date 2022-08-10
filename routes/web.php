@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\listControl;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 Route::get('/', [listControl::class,'index']);
 //Gets the registration page
