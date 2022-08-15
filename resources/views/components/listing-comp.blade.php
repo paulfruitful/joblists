@@ -8,15 +8,15 @@
     
 
 <div class="max-w-lg ">
-<div class="border-2 border-gray box-content block border-rounded  p-12 mb-6 flex hover:bg-black hover:border-white w-screen shadow-lg shadow-blacks w-full ">
-   <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  hover:text-white" >{{$list->title}}</h2></a>
+<div class="border-2 border-gray box-content block border-rounded  p-12 mb-6 flex hover:border-white w-screen shadow-lg shadow-blacks w-full ">
+   <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
    <div class="ml-12"></div>
    <div class="ml-12"></div>
    <div class="ml-12"></div>
    <div class="ml-12"></div>
    <div class="ml-12"></div>
    <div class="ml-12"></div>
-   <a href="/apply/{{$list->id}}" class="bg-indigo-800 p-3 rounded-md ml-12  text-white">Apply</a>
+   <a href="/{{$list->id}}" class="bg-indigo-800 p-3 rounded-md ml-12  text-white">Apply</a>
 </div>
 </div>
 @endforeach
