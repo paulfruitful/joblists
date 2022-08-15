@@ -1,8 +1,8 @@
 <!-- Container for demo purpose -->
 @props(['list'])
 <div class="container my-24 px-6 mx-auto">
-  <img src="https://th.bing.com/th/id/R.1d50d12c2d9486dda5bf54dbafc36af6?rik=ZcDVziJCuEPtgg&pid=ImgRaw&r=0" alt="" class="align-top w-14">
-    <!-- Section: Design Block -->
+  <a href="/" class="border-solid border-4 border-gray-300"><img src="https://th.bing.com/th/id/R.1d50d12c2d9486dda5bf54dbafc36af6?rik=ZcDVziJCuEPtgg&pid=ImgRaw&r=0" alt="" class="align-top w-14">
+    </a><!-- Section: Design Block -->
     <section class="mb-32 text-gray-800">
       <div class="block rounded-lg shadow-lg bg-white">
         <div class="flex flex-wrap items-center">
