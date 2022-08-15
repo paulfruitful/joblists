@@ -15,7 +15,6 @@ use App\Http\Controllers\listControl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 Route::get('/', [listControl::class,'index']);
-Route::get('/{listing}',[listControl::class,'show']);
 //Gets the registration page
 Route::get('/register',[userController::class,'create']);
 //Stores the user profile in our database
@@ -28,3 +27,5 @@ Route::get('/login',function(){
 });
 //User login validation route
 Route::post('/login',[userController::class,'login'])->name('login');
+
+Route::get('/{listing}',[listControl::class,'show']);
