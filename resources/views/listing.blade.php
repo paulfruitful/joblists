@@ -22,7 +22,7 @@
         </style>
     </head>
     <body>
+     <x-nav-nav/>
 
-        
     </body>
 </html>
