@@ -30,3 +30,4 @@ Route::post('/login',[userController::class,'login'])->name('login');
 
 Route::get('/{listing}',[listControl::class,'show']);
 Route::get('/create',[listControl::class,'create']);
+Route::post('/create', [listControl::class,'store']);
