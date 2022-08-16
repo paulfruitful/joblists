@@ -45,11 +45,11 @@ class listControl extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Listing $listing)
     {
         //
         return view('listing',[
-            'list'=>Listing::find($id)
+            'list'=>$listing
         ]);
 
     }
