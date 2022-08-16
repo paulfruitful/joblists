@@ -25,7 +25,7 @@ class listControl extends Controller
      */
     public function create()
     {
-        //
+        return view('create');
     }
 
     /**
