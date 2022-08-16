@@ -21,4 +21,8 @@
             }
         </style>
     </head>
-    
+    <body>
+        <x-nav-nav/>
+        <x-job-list :list="$list"/>
+   
+       </body>
