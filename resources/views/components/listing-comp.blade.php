@@ -11,7 +11,7 @@
 <div class="border-2 border-gray box-content block border-rounded  p-12 mb-6 flex hover:border-white w-screen shadow-lg shadow-blacks w-full ">
    <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
    <div class="relative">
-   <a href="/{{$list->id}}" class="bg-indigo-800 p-3 rounded-md ml-12 inline-block  text-white absolute bottom-0 right-6 ">Apply</a>
+   <a href="/{{$list->id}}" class="bg-indigo-800 p-3 rounded-md ml-12 inline-block  text-white absolute bottom-0 left-6 ">Apply</a>
    </div>
 </div>
 </div>
