@@ -7,7 +7,7 @@
 @foreach ($listing as $list)
     
 
-<div class="max-w-sm ">
+<div class="max-w-sm relative">
 <div class="border-2 relative border-gray box-content block border-rounded  p-12 mb-6 flex hover:border-white w-screen shadow-lg shadow-blacks w-full ">
    <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
    <div class="relative">
