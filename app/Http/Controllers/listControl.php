@@ -36,6 +36,15 @@ class listControl extends Controller
      */
     public function store(Request $request)
     {
+        $form_values=$request->validate([
+            'company'=>'required',
+            'title'=>'required',
+            'description'=>'required',
+            'email'=>['required','email'],
+            'website'=>'required',
+            'tags'=>'required',
+            'location'=>'required'
+        ])
         //
     }
 
