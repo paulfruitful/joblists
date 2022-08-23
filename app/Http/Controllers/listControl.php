@@ -46,7 +46,7 @@ class listControl extends Controller
             'location'=>'required'
         ]);
         if($request->hasFile('photo')){
-            
+            $form_values['photo']=$request->file('photo')->store('photo','public');
         }
         //
     }
