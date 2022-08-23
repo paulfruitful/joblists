@@ -50,7 +50,7 @@ class listControl extends Controller
             $form_values['photo']=$request->file('photo')->store('photo','public');
         }
         Listing::create($form_values);
-        //
+        return redirect('/');
     }
 
     /**
