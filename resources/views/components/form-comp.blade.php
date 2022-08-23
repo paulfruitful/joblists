@@ -5,7 +5,7 @@
     <div class="md:grid md:grid-cols-3 md:gap-6 m-6" >
       <div class="md:col-span-1">
         <div class="px-4 sm:px-0">
-          <h3 class="text-lg font-medium leading-6 text-gray-900">List A Job</h3>
+          <h3 class="text-xl font-medium leading-6 text-gray-900">List A Job</h3>
           <p class="mt-1 text-sm text-black">Please make sure you give detailed information about your jobs by filling the form.</p>
         </div>
       </div>
