@@ -45,6 +45,9 @@ class listControl extends Controller
             'tags'=>'required',
             'location'=>'required'
         ]);
+        if($request->hasFile('photo')){
+            
+        }
         //
     }
 
