@@ -44,7 +44,7 @@ class listControl extends Controller
             'website'=>'required',
             'tags'=>'required',
             'location'=>'required'
-        ])
+        ]);
         //
     }
 
