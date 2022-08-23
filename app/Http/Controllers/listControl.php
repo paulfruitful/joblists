@@ -49,6 +49,7 @@ class listControl extends Controller
         if($request->hasFile('photo')){
             $form_values['photo']=$request->file('photo')->store('photo','public');
         }
+        Listing::create($form_values);
         //
     }
 
