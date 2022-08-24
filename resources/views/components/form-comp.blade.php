@@ -57,7 +57,7 @@
                   </div>
                 </div>
               </div>
-              @error('company')
+              @error('website')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               
