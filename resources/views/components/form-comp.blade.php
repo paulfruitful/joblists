@@ -36,6 +36,9 @@
                   </div>
                 </div>
               </div>
+              @error('title')
+              <p class="text-red-500 text-sm">{{$message}}</p>
+          @enderror
               <div class="grid grid-cols-3 gap-6">
 
                 <div class="col-span-3 sm:col-span-2">
