@@ -35,6 +35,15 @@
                 </div>
               </div>
               <div class="grid grid-cols-3 gap-6">
+
+                <div class="col-span-3 sm:col-span-2">
+                  <label for="company-website" class="block text-sm font-medium text-gray-700"> Job Title</label>
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                   <input type="email" name="email"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Laravel Developer, LA">
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-6">
                 <div class="col-span-3 sm:col-span-2">
                   <label for="company-website" class="block text-sm font-medium text-gray-700"> Website </label>
                   <div class="mt-1 flex rounded-md shadow-sm">
@@ -43,7 +52,7 @@
                   </div>
                 </div>
               </div>
-  
+              
               <div>
                 <label for="about" class="block text-sm font-medium text-gray-700"> Job Description </label>
                 <div class="mt-1">
