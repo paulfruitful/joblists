@@ -57,7 +57,7 @@
                   <label for="company-name" class="block text-sm font-medium text-gray-700">Location</label>
                   <div class="mt-1 flex rounded-md shadow-sm">
                   
-                    <input type="text" name="company"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Microsoft">
+                    <input type="text" name="location"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Microsoft">
                   </div>
                 </div>
               </div>
