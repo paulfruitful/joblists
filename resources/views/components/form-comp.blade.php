@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
-        <form action="/create" method="POST">
+        <form action="/create" method="POST" enctype="multipart/form-data">
         @csrf
           <div class="shadow sm:rounded-md sm:overflow-hidden">
             <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
