@@ -9,7 +9,14 @@ class listing extends Model
 {
     use HasFactory;
 
-
+    protected $fillable = [
+        'title',
+        'company',
+        'description',
+        'tags',
+        'location',
+        'website'
+    ];
     public function user(){
         return $this->belongsTo(User::class,'user_id');
     }
