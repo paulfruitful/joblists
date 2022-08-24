@@ -68,7 +68,7 @@
                 </div>
                 <p class="mt-2 text-sm text-gray-500">Brief description for your profile</p>
               </div>
-              @error('company')
+              @error('description')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               <div class="grid grid-cols-3 gap-6">
