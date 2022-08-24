@@ -68,7 +68,9 @@
                 </div>
                 <p class="mt-2 text-sm text-gray-500">Brief description for your profile</p>
               </div>
-  
+              @error('company')
+              <p class="text-red-500 text-sm">{{$message}}</p>
+          @enderror
               <div class="grid grid-cols-3 gap-6">
                 <div class="col-span-3 sm:col-span-2">
                   <label for="company-name" class="block text-sm font-medium text-gray-700">Location</label>
