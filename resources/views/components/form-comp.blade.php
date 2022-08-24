@@ -70,7 +70,15 @@
                   </div>
                 </div>
               </div>
-  
+              <div class="grid grid-cols-3 gap-6">
+
+                <div class="col-span-3 sm:col-span-2">
+                  <label for="company-website" class="block text-sm font-medium text-gray-700">Tags</label>
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                   <input type="text" name="tags"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Node.js,Laravel,HTML">
+                  </div>
+                </div>
+              </div>
               <div>
                 <label class="block text-sm font-medium text-gray-700"> Cover photo </label>
                 <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
