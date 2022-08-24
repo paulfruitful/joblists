@@ -24,7 +24,7 @@
                 </div>
               </div>
               @error('company')
-                  <p class="text-red-400 text-sm">{{$message}}</p>
+                  <p class="text-red-500 text-sm">{{$message}}</p>
               @enderror
 
               <div class="grid grid-cols-3 gap-6">
