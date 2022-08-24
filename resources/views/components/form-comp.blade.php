@@ -23,7 +23,9 @@
                   </div>
                 </div>
               </div>
-              
+              @error('company')
+                  
+              @enderror
 
               <div class="grid grid-cols-3 gap-6">
 
