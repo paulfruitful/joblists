@@ -48,6 +48,9 @@
                   </div>
                 </div>
               </div>
+              @error('email')
+              <p class="text-red-500 text-sm">{{$message}}</p>
+          @enderror
               <div class="grid grid-cols-3 gap-6">
                 <div class="col-span-3 sm:col-span-2">
                   <label for="company-website" class="block text-sm font-medium text-gray-700"> Website </label>
