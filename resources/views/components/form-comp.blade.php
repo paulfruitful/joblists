@@ -57,6 +57,9 @@
                   </div>
                 </div>
               </div>
+              @error('company')
+              <p class="text-red-500 text-sm">{{$message}}</p>
+          @enderror
               
               <div>
                 <label for="about" class="block text-sm font-medium text-gray-700"> Job Description </label>
