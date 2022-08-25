@@ -45,7 +45,7 @@ class listControl extends Controller
             'tags'=>'required',
             'location'=>'required'
         ]);
-        $form_values['user_id']=auth()->user()->id;
+        $form_values['user_id']=auth()->id();
         if($request->hasFile('photo')){
             $form_values['photo']=$request->file('photo')->store('photo','public');
         }
