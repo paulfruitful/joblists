@@ -45,10 +45,10 @@ class listControl extends Controller
             'tags'=>'required',
             'location'=>'required'
         ]);
-        $form_values['user_id']=auth()->id();
         if($request->hasFile('photo')){
             $form_values['photo']=$request->file('photo')->store('photo','public');
         }
+        $form_values['user_id']=auth()->id();
         Listing::create($form_values);
         return redirect('/');
     }
