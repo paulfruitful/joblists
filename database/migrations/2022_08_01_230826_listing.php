@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('tags');
             $table->string('website');
             $table->string('location');
-            $table->foreignId('user_id')->constrained()->onDelete('cascade')->nullable();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
 
         });
