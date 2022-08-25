@@ -17,7 +17,8 @@ class listing extends Model
         'location',
         'website',
         'email',
-        'photo'
+        'photo',
+        'user_id'
     ];
     public function user(){
         return $this->belongsTo(User::class,'user_id');
