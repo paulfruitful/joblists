@@ -86,7 +86,7 @@ class listControl extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Listing $listing)
     {
         $form_values=$request->validate([
             'company'=>'required',
@@ -97,7 +97,10 @@ class listControl extends Controller
             'tags'=>'required',
             'location'=>'required'
         ]);
-        
+
+        $listing->update($form_values);
+        return redirect('/'.$listing->id);
+
     }
 
     /**
