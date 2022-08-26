@@ -88,7 +88,16 @@ class listControl extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $form_values=$request->validate([
+            'company'=>'required',
+            'title'=>'required',
+            'description'=>'required',
+            'email'=>['required','email'],
+            'website'=>'required',
+            'tags'=>'required',
+            'location'=>'required'
+        ]);
+        
     }
 
     /**
