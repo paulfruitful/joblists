@@ -113,7 +113,7 @@ class listControl extends Controller
      */
     public function destroy(Listing $listing)
     {
-        $listing->destroy();
+        $listing->destroy($listig->id);
         return redirect('/listing')->with('Success','You have successfully deleted a listing');
     }
 }
