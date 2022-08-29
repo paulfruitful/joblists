@@ -114,6 +114,6 @@ class listControl extends Controller
     public function destroy(Listing $listing)
     {
         $listing->destroy($listing->id);
-        return redirect('/listing')->with('Success','You have successfully deleted a listing');
+        return redirect('/')->with('Success','You have successfully deleted a listing');
     }
 }
