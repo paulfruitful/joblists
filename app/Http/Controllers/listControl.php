@@ -95,7 +95,6 @@ class listControl extends Controller
             'company'=>'required',
             'title'=>'required',
             'description'=>'required',
-            'email'=>['required','email'],
             'website'=>'required',
             'tags'=>'required',
             'location'=>'required'
