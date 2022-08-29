@@ -1,4 +1,4 @@
-@props(['listingg'])
+@props(['listing'])
 @auth
     
 
