@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
-        <form action="/create" method="POST" enctype="multipart/form-data">
+        <form action="/{{$listing->id}}/edit" method="POST" enctype="multipart/form-data">
         @csrf
         @method('PUT')
           <div class="shadow sm:rounded-md sm:overflow-hidden">
