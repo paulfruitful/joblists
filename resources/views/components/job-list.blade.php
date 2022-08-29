@@ -43,7 +43,7 @@
               @method('DELETE')
               <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
             
-            </form> <a href="/{{$list->id}}/edit" class=" block justify-center  mx-auto p-6 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Edit</button>
+            </form> <a href="/{{$list->id}}/edit" class=" inline-flex justify-center  mx-auto py-2 px-4  border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Edit</button>
             
             @else
                  <div></div> 
