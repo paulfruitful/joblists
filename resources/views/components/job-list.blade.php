@@ -25,14 +25,13 @@
               </p>
               @if (auth()->id()==$list->user_id)
                   
-            <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
               <a href="/{{$list->id}}/edit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Edit</button>
             <form action="/{{$list->id}}/delete" method="post">
               
               <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Delete</button>
             
             </form>
-              </div>
+           
 
               @else
                  <div></div> 
