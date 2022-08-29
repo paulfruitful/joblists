@@ -97,7 +97,6 @@
                 @error('tags')
                 <p class="text-red-500 text-sm">{{$message}}</p>
             @enderror
-                <label class="block text-sm font-medium text-gray-700"> Cover photo </label>
               
               
             </div>
