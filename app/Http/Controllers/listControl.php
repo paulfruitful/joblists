@@ -88,7 +88,7 @@ class listControl extends Controller
      */
     public function update(Request $request, Listing $listing)
     {
-        if($listing->user_id==auth()->id()){
+        if(!$listing->user_id==auth()->id()){
             return abort(403);
         }
         $form_values=$request->validate([
