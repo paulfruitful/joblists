@@ -89,8 +89,8 @@ class listControl extends Controller
     public function update(Request $request, Listing $listing)
     {
         if($listing->user_id==auth()->id()){
-            
-       
+            return abort(404);
+        }
         $form_values=$request->validate([
             'company'=>'required',
             'title'=>'required',
@@ -102,9 +102,7 @@ class listControl extends Controller
 
         $listing->update($form_values);
         return redirect('/'.$listing->id)->with('Success','You have successfully updated the Listing');
- }else{
-    return abort(404);
- }
+
     }
 
     /**
