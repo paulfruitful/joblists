@@ -1,3 +1,4 @@
+@props(['listingg'])
 @auth
     
 

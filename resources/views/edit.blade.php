@@ -23,7 +23,7 @@
     </head>
     <body>
         <x-nav-nav/>
-        <x-edit-form/>
+        <x-edit-form :listing="$listing"/>
    
        </body>
 </html>
