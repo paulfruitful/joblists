@@ -77,7 +77,7 @@ class listControl extends Controller
     public function edit(Listing $listing)
     {
         if($listing->user_id!=auth()->id()){
-            return abort(404);
+            return abort(403);
         }
         return view('edit',['listing'=>$listing]);
     }
