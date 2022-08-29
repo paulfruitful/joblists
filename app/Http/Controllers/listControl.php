@@ -88,6 +88,7 @@ class listControl extends Controller
      */
     public function update(Request $request, Listing $listing)
     {
+        if($listing->user_id==auth()->id())
         $form_values=$request->validate([
             'company'=>'required',
             'title'=>'required',
