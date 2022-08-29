@@ -23,7 +23,11 @@
               <p class="text-gray-500 mb-6">
                 {{$list->description}}
               </p>
-              
+              @if (auth()->id()==$listing->user_id)
+                  
+              @else
+                  
+              @endif
             </div>
           </div>
         </div>
