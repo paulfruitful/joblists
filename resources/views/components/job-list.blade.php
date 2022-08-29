@@ -35,7 +35,7 @@
               </div>
 
               @else
-                  
+                 <div></div> 
               @endif
             </div>
           </div>
