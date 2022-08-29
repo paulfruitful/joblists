@@ -23,7 +23,7 @@
     </head>
     <body>
         <x-nav-nav/>
-        <x-form-comp/>
+        <x-edit-form/>
    
        </body>
 </html>
