@@ -39,7 +39,7 @@
             <form action="/{{$list->id}}/delete" method="post">
               @csrf
               @method('DELETE')
-              <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
+              <button type="submit" class="inline-flex justify-center mx-4 py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
             
             </form>
             @else
