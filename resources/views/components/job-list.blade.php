@@ -30,10 +30,7 @@
           </div>
         </div>
       </div> 
-      
-    </section>
-    <!-- Section: Design Block -->
-    @if (auth()->id()==$list->user_id)
+       @if (auth()->id()==$list->user_id)
     <div class="flex-wrap">
    <div class="mx-auto"></div>
       <form action="/{{$list->id}}/delete" method="post">
@@ -46,4 +43,7 @@
        <div></div> 
     @endif
   </div> 
+    </section>
+    <!-- Section: Design Block -->
+   
    
