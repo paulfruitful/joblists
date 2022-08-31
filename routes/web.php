@@ -14,6 +14,7 @@ use App\Http\Controllers\listControl;
 */
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
+use App\Http\Controllers\applicationControl;
 Route::get('/', [listControl::class,'index']);
 //Gets the registration page
 Route::get('/register',[userController::class,'create']);
