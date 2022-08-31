@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('applications', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('email');
             $table->longText('coverletter');
             $table->foreignId('listing_id')->constrained()->onDelete('cascade');
             $table->string('cv');
