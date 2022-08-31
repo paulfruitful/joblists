@@ -36,7 +36,7 @@
   </form> </div>
   @else
        <div class="flex-wrap">
-        <a href="/{{$list->id}}/apply" class="py-2 mx-4 px-4 bg-indigo-700 text-white border border-transparent rounded-md">Edit List</a>
+        <a href="/{{$list->id}}/apply" class="py-2 mx-4 px-4 bg-indigo-700 text-white border border-transparent rounded-md">Submit Application</a>
   
         </div> 
     @endif
