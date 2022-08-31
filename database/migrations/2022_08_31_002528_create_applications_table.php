@@ -17,6 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->longText('coverletter');
+            $table->string('cv');
+
             $table->timestamps();
         });
     }
