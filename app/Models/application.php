@@ -15,4 +15,7 @@ class application extends Model
         'cv',
         'listing_id'
     ];
+    public function Listing(){
+        
+    }
 }
