@@ -25,22 +25,22 @@
               </p>
             
 
-             
-            </div>
-          </div>
-        </div>  
-         @if (auth()->id()==$list->user_id)
+                      @if (auth()->id()==$list->user_id)
     <div class="flex-wrap">
    <div class="mx-auto"></div>
       <form action="/{{$list->id}}/delete" method="post">
     @csrf
     @method('DELETE')
-    <button type="submit" class="inline-flex bottom-0 right-0  justify-center absolute py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
+    <button type="submit" class="inline-flex bottom-0 right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
   
   </form> </div>
   @else
        <div></div> 
     @endif
+            </div>
+          </div>
+        </div>  
+
   </div> 
       </div> 
     
