@@ -35,7 +35,7 @@
      <a href="/{{$list->id}}" class="py-2 mx-4 px-4 bg-indigo-700 text-white border border-transparent rounded-md">Edit List</a>
   </form> </div>
   @else
-       <div></div> 
+       <div class="flex-wrap"></div> 
     @endif
             </div>
           </div>
