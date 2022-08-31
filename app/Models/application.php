@@ -16,6 +16,6 @@ class application extends Model
         'listing_id'
     ];
     public function Listing(){
-        
+        return $this->belongsTo(Listing::class,'listing_id');
     }
 }
