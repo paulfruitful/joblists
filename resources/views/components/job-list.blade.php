@@ -26,7 +26,7 @@
             
 
                       @if (auth()->id()==$list->user_id)
-    <div class="flex-wrap">
+    <div class="flex-wrap left-2">
    <div class="mx-auto"></div>
       <form action="/{{$list->id}}/delete" method="post">
     @csrf
