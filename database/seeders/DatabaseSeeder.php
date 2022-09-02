@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
              'password'=>Hash::make('fruitful1')
 
         ]);
-         Listing::factory(38)->create([
+         Listing::factory(18)->create([
             'user_id'=>$user->id
          ]);
      
