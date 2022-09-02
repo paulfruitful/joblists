@@ -14,6 +14,6 @@ class listingObserver
      */
     public function created(Listing $listing)
     {
-        Cache::forget();
+        Cache::forget('listings');
     }
 }
