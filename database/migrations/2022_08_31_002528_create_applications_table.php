@@ -20,6 +20,7 @@ return new class extends Migration
             $table->longText('coverletter');
             $table->foreignId('listing_id')->constrained()->onDelete('cascade');
             $table->string('cv');
+            $tale->string('portfolio');
 
             $table->timestamps();
         });
