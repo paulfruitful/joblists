@@ -12,6 +12,8 @@ class applicationControl extends Controller
         return view('application')->with('listing',$listing);
     }
     public function  store(Request $request){
-        
+        $form_data=$request->validate([
+            
+        ])
     }
 }
