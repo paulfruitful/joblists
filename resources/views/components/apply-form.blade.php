@@ -1,1 +1,1 @@
-@@props(['listing'])
+@props(['listing'])
