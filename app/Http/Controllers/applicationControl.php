@@ -13,7 +13,11 @@ class applicationControl extends Controller
     }
     public function  store(Request $request){
         $form_data=$request->validate([
-            
-        ])
+           'name',
+           'email',
+           'coverletter',
+           'cv',
+           'listing_id'
+        ]);
     }
 }
