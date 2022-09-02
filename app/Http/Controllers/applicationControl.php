@@ -22,6 +22,8 @@ class applicationControl extends Controller
 
         $form_data['lising_id']=$request->listing;
 
-        if($request->hasFile('cv')){}
+        if($request->hasFile('cv')){
+            $form_data['cv']=$request->file('cv')->store('cv','public');
+        }
     }
 }
