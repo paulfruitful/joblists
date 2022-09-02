@@ -57,7 +57,7 @@
                 </div>
                 <p class="mt-2 text-sm text-gray-500">Brief description for your profile</p>
               </div>
-              @error('description')
+              @error('coverletter')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               
