@@ -17,8 +17,9 @@ class applicationControl extends Controller
            'name'=>'required',
            'email'=>'required',
            'coverletter'=>'required',
-           'cv'=>'required',
-           'listing_id'=>'required'
+           'cv'=>'required'
         ]);
+
+        $form_data['lising_id']=$request->listing;
     }
 }
