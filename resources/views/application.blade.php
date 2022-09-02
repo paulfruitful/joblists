@@ -24,6 +24,7 @@
     <body>
         
         <x-nav-nav/>
+        <x-apply-form :listing="$listing"/>
         
        </body>
        </html>
