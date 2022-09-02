@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\Listing;
+use App\Observers\listingObserver;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
