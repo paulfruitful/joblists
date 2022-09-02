@@ -11,4 +11,7 @@ class applicationControl extends Controller
         
         return view('application')->with('listing',$listing);
     }
+    public function  store(Request $request){
+        
+    }
 }
