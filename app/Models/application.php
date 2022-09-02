@@ -14,6 +14,7 @@ class application extends Model
         'email',
         'coverletter',
         'cv',
+        'portfolio',
         'listing_id'
     ];
     public function Listing(){
