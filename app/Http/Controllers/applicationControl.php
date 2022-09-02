@@ -14,7 +14,7 @@ class applicationControl extends Controller
     public function  store(Request $request){
         dd($request->listing);
         $form_data=$request->validate([
-           'name',
+           'name'=>'required',
            'email',
            'coverletter',
            'cv',
