@@ -21,5 +21,7 @@ class applicationControl extends Controller
         ]);
 
         $form_data['lising_id']=$request->listing;
+
+        if($request->hasFile('cv')){}
     }
 }
