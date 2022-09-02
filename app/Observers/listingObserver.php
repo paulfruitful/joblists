@@ -16,48 +16,4 @@ class listingObserver
     {
         //
     }
-
-    /**
-     * Handle the Listing "updated" event.
-     *
-     * @param  \App\Models\Listing  $listing
-     * @return void
-     */
-    public function updated(Listing $listing)
-    {
-        //
-    }
-
-    /**
-     * Handle the Listing "deleted" event.
-     *
-     * @param  \App\Models\Listing  $listing
-     * @return void
-     */
-    public function deleted(Listing $listing)
-    {
-        //
-    }
-
-    /**
-     * Handle the Listing "restored" event.
-     *
-     * @param  \App\Models\Listing  $listing
-     * @return void
-     */
-    public function restored(Listing $listing)
-    {
-        //
-    }
-
-    /**
-     * Handle the Listing "force deleted" event.
-     *
-     * @param  \App\Models\Listing  $listing
-     * @return void
-     */
-    public function forceDeleted(Listing $listing)
-    {
-        //
-    }
 }
