@@ -18,12 +18,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {  
          $user=User::factory()->create([
-             'name' => 'Zoe',
-             'email' => 'test@example.com',
+             'name' => 'Jacob',
+             'email' => 'fruitful2007@outlok.com',
              'password'=>Hash::make('fruitful1')
 
         ]);
-         Listing::factory(18)->create([
+         Listing::factory(10)->create([
             'user_id'=>$user->id
          ]);
      
