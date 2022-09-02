@@ -22,7 +22,7 @@
                   </div>
                 </div>
               </div>
-              @error('title')
+              @error('name')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               <div class="grid grid-cols-3 gap-6">
