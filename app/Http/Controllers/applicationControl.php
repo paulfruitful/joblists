@@ -17,8 +17,8 @@ class applicationControl extends Controller
            'name'=>'required',
            'email'=>'required',
            'coverletter'=>'required',
-           'cv',
-           'listing_id'
+           'cv'=>'required',
+           'listing_id'=>'required'
         ]);
     }
 }
