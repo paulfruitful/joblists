@@ -15,7 +15,9 @@ class listControl extends Controller
      */
     public function index()
     {
-        $list=Cache::remember(Listing::latest()->paginate(9));
+        $list=Cache::remember('listings',60*60*24,function(){
+             return Listing::latest()->paginate(9);
+            });
         return view('listings',['list'=>$list]);
     }
 
