@@ -15,8 +15,8 @@ class applicationControl extends Controller
         dd($request->listing);
         $form_data=$request->validate([
            'name'=>'required',
-           'email',
-           'coverletter',
+           'email'=>'required',
+           'coverletter'=>'required',
            'cv',
            'listing_id'
         ]);
