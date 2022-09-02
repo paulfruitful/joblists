@@ -3,9 +3,10 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-use App\Models\Listing;
 use  App\Models\User;
+use App\Models\Listing;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -22,7 +23,7 @@ class DatabaseSeeder extends Seeder
              'password'=>Hash::make('fruitful1')
 
         ]);
-         Listing::factory(8)->create([
+         Listing::factory(38)->create([
             'user_id'=>$user->id
          ]);
      
