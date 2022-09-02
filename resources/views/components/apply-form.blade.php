@@ -1,28 +1,42 @@
-@props(['listing'])@auth
+@auth
     
 
 <div>
     <div class="md:grid md:grid-cols-3 md:gap-6 m-6" >
       <div class="md:col-span-1">
         <div class="px-4 sm:px-0">
-          <h3 class="text-2xl font-medium font-bold leading-6 text-gray-900">Apply for the {{$listing->title}} Position</h3>
+          <h3 class="text-2xl font-medium font-bold leading-6 text-gray-900">List A Job</h3>
           <p class="mt-6 text-sm text-black">Please make sure you give detailed information about your jobs by filling the form.</p>
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
-        <form action="/{{$listing->id}}/apply" method="POST" enctype="multipart/form-data">
+        <form action="/create" method="POST" enctype="multipart/form-data">
         @csrf
-       
+          <div class="shadow sm:rounded-md sm:overflow-hidden">
+            <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
               <div class="grid grid-cols-3 gap-6">
-
                 <div class="col-span-3 sm:col-span-2">
-                  <label for="company-website" class="block text-sm font-medium text-gray-700"> Full Name</label>
+                  <label for="company-name" class="block text-sm font-medium text-gray-700"> Company Name </label>
                   <div class="mt-1 flex rounded-md shadow-sm">
-                   <input type="text" name="name"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Laravel Developer, LA">
+                  
+                    <input type="text" name="company"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Microsoft">
                   </div>
                 </div>
               </div>
-              @error('name')
+              @error('company')
+                  <p class="text-red-500 text-sm">{{$message}}</p>
+              @enderror
+
+              <div class="grid grid-cols-3 gap-6">
+
+                <div class="col-span-3 sm:col-span-2">
+                  <label for="company-website" class="block text-sm font-medium text-gray-700"> Job Title</label>
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                   <input type="text" name="title"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Laravel Developer, LA">
+                  </div>
+                </div>
+              </div>
+              @error('title')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               <div class="grid grid-cols-3 gap-6">
@@ -39,31 +53,50 @@
           @enderror
               <div class="grid grid-cols-3 gap-6">
                 <div class="col-span-3 sm:col-span-2">
-                  <label for="company-website" class="block text-sm font-medium text-gray-700"> Portfolio</label>
+                  <label for="company-website" class="block text-sm font-medium text-gray-700"> Website </label>
                   <div class="mt-1 flex rounded-md shadow-sm">
                     <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm"> http:// </span>
-                    <input type="text" name="portfolio" id="company-website" class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="www.example.com">
+                    <input type="text" name="website" id="company-website" class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="www.example.com">
                   </div>
                 </div>
               </div>
-              @error('portfolio')
+              @error('website')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               
               <div>
-                <label for="about" class="block text-sm font-medium text-gray-700"> Cover Letter</label>
+                <label for="about" class="block text-sm font-medium text-gray-700"> Job Description </label>
                 <div class="mt-1">
-                  <textarea  name="coverletter" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="  We need an experiend..."></textarea>
+                  <textarea  name="description" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="  We need an experiend..."></textarea>
                 </div>
-                <p class="mt-2 text-sm text-gray-500">Brief description for your profile</p>
+                <p class="mt-2 text-sm text-gray-500">Brief description of your Job offer</p>
               </div>
-              @error('coverletter')
+              @error('description')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
-              
-           
+              <div class="grid grid-cols-3 gap-6">
+                <div class="col-span-3 sm:col-span-2">
+                  <label for="company-name" class="block text-sm font-medium text-gray-700">Location</label>
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                  
+                    <input type="text" name="location"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="23 Orsborne Rd, Lagos">
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 gap-6">
+
+                <div class="col-span-3 sm:col-span-2">
+                  <label for="company-website" class="block text-sm font-medium text-gray-700">Tags</label>
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                   <input type="text" name="tags"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="Node.js, Laravel, HTML">
+                  </div>
+                </div>
+              </div>
               <div>
-                <label class="block text-sm font-medium text-gray-700"> Resume</label>
+                @error('tags')
+                <p class="text-red-500 text-sm">{{$message}}</p>
+            @enderror
+                <label class="block text-sm font-medium text-gray-700"> Cover photo </label>
                 <div class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
                   <div class="space-y-1 text-center">
                     <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
@@ -71,12 +104,12 @@
                     </svg>
                     <div class="flex text-sm text-gray-600">
                       <label for="file-upload" class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                        <span>Upload File</span>
+                        <span>Upload a file</span>
                         <input id="file-upload" name="photo" type="file" class="sr-only">
                       </label>
                       <p class="pl-1">or drag and drop</p>
                     </div>
-                    <p class="text-xs text-gray-500">PDf, DOCX, or XML format</p>
+                    <p class="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
                   </div>
                 </div>
               </div>
