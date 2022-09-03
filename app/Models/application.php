@@ -15,7 +15,7 @@ class application extends Model
         'coverletter',
         'cv',
         'portfolio',
-        'listing_id'
+        
     ];
     public function Listing(){
         return $this->belongsTo(Listing::class,'listing_id');
