@@ -6,7 +6,7 @@
       <div class="md:col-span-1">
         <div class="px-4 sm:px-0">
           <h3 class="text-2xl font-medium font-bold leading-6 text-gray-900">Apply To {{$listing->company}}</h3>
-          <p class="mt-6 text-sm text-black">Please make sure you give detailed information about your self by filling the form.</p>
+          <p class="mt-6 text-sm text-black">Please make sure you give detailed information about yourself by filling the form.</p>
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:col-span-2">
