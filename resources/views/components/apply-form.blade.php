@@ -57,7 +57,7 @@
                 <div class="mt-1">
                   <textarea  name="description" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="  We need an experiend..."></textarea>
                 </div>
-                <p class="mt-2 text-sm text-gray-500">Brief description of your Job offer</p>
+                <p class="mt-2 text-sm text-gray-500">Brief description of yourself</p>
               </div>
               @error('description')
               <p class="text-red-500 text-sm">{{$message}}</p>
