@@ -59,7 +59,7 @@
                 </div>
                 <p class="mt-2 text-sm text-gray-500">Brief description of yourself</p>
               </div>
-              @error('description')
+              @error('coverletter')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               <div class="grid grid-cols-3 gap-6">
