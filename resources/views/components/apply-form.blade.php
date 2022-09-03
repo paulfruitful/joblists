@@ -48,7 +48,7 @@
                   </div>
                 </div>
               </div>
-              @error('website')
+              @error('portfolio')
               <p class="text-red-500 text-sm">{{$message}}</p>
           @enderror
               
