@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Listing;
+use Illuminate\Support\Facades\Cache;
 
 class listingObserver
 {
