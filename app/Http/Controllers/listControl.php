@@ -105,7 +105,7 @@ class listControl extends Controller
         ]);
 
         $listing->update($form_values);
-        return redirect('/'.$listing->id)->with('Success','You have successfully updated the Listing');
+        return redirect('/'.$listing->id)->with('Success','You Have Successfully Updated The Listing');
 
     }
 
