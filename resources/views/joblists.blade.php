@@ -22,4 +22,7 @@
             }
         </style>
     </head>
+    <body>
+        <x-nav-nav/>
     <x-listing-comp :listing="$list"/>
+    </body>
