@@ -22,12 +22,12 @@ class applicationControl extends Controller
            'portfolio'=>'required'
         ]);
 
-        $form_data['lising_id']=$request->listing;
-
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
-        application::create($form_data);
+        application::create([$form_data,
+           'listing_id'=>
+    ]);
         return redirect('/')->with('Success', 'You have successfully applied! Goodluck!');
     }
 }
