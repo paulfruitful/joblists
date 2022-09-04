@@ -38,8 +38,9 @@ Route::get('/listings',function(){
 });
 
 Route::get('/manage',function(){
+   
     return view('manage',[
-        'listings'=>auth()->user()->listings
+        'listings'=>auth()->user()->listing
     ]);
 });
 //The route to get the listing creation form 
