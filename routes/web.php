@@ -32,6 +32,7 @@ Route::post('/login',[userController::class,'login'])->name('login');
 
 Route::get('/create',[listControl::class,'create']);
 Route::post('/create', [listControl::class,'store']);
+//The route to get an individual listing
 Route::get('/{listing}',[listControl::class,'show']);
 //The route to get the edit listing form view
 Route::get('/{listing}/edit',[listControl::class,'edit']);
