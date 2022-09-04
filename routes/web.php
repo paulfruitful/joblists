@@ -32,7 +32,7 @@ Route::post('/login',[userController::class,'login'])->name('login');
 
 Route::get('/listings',function(){
     return view('joblists',[
-        'list'=>Listing::all()
+        'list'=>Listing::latest()
     ]);
 });
 //The route to get the listing creation form 
