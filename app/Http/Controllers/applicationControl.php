@@ -19,7 +19,7 @@ class applicationControl extends Controller
            'email'=>'required',
            'coverletter'=>'required',
            'cv'=>'required',
-           'portfolio'=>'required'
+           'portfolio'=>'required',
            'listing_id'=>'required'
         ]);
 
