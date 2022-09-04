@@ -83,6 +83,7 @@ x-data="{open:false,menu:false, lokasi:false}">
   </div>
 </nav>
 @include('components.hero')
+<x-popup-message/>
    @yield('content')
  @else
     <div class="relative bg-white overflow-hidden">
