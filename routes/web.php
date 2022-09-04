@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\listControl;
+use App\Models\Listing;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +12,7 @@ use App\Http\Controllers\listControl;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Controllers\listControl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 use App\Http\Controllers\applicationControl;
