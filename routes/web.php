@@ -36,6 +36,12 @@ Route::get('/listings',function(){
         'list'=>Listing::latest()->get()
     ]);
 });
+
+Route::get('/manage',function(){
+    return view('manage',[
+        'listings'=>auth()->user()->listings
+    ]);
+});
 //The route to get the listing creation form 
 Route::get('/create',[listControl::class,'create']);
 //The route to create a job listing
