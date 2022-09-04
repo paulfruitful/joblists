@@ -25,9 +25,7 @@ class applicationControl extends Controller
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
-        application::create($form_data
-      
-    );
+        application::create($form_data);
         return redirect('/')->with('Success', 'You have successfully applied! Goodluck!');
     }
 }
