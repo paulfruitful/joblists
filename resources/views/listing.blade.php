@@ -24,6 +24,6 @@
     <body>
      <x-nav-nav/>
      <x-job-list :list="$list"/>
-
+     <x-popup-message/>
     </body>
 </html>
