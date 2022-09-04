@@ -33,9 +33,13 @@ Route::post('/login',[userController::class,'login'])->name('login');
 Route::get('/create',[listControl::class,'create']);
 Route::post('/create', [listControl::class,'store']);
 Route::get('/{listing}',[listControl::class,'show']);
+//The route to get the edit listing form view
 Route::get('/{listing}/edit',[listControl::class,'edit']);
+//The route for the edit listing action
 Route::put('/{listing}/edit',[listControl::class,'update']);
+//The route to the deletion of a listing
 Route::delete('/{listing}/delete',[listControl::class,'destroy']);
+//The route to the application form
 Route::get('/{listing}/apply',[applicationControl::class,'create']);
 
 Route::post('/{listing}/apply',[applicationControl::class,'store']);
