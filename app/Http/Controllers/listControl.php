@@ -53,7 +53,7 @@ class listControl extends Controller
         }
         $form_values['user_id']=auth()->id();
         Listing::create($form_values);
-        return redirect('/')->with('Success','You have successfully created a Listing');
+        return redirect('/')->with('Success','You Have Successfully Created A Listing');
     }
 
     /**
