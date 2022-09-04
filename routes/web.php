@@ -29,7 +29,7 @@ Route::get('/login',function(){
 //User login validation route
 Route::post('/login',[userController::class,'login'])->name('login');
 
-Route::get('/listings' function(){
+Route::get('/listings',function(){
 
 });
 //The route to get the listing creation form 
