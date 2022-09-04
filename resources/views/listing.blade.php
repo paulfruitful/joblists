@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+         
+<script src="//unpkg.com/alpinejs" defer></script>
         <title>Joblists</title>
         <link rel="shortcut icon" href="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png" type="image/x-icon">
        
