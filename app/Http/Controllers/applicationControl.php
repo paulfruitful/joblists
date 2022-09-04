@@ -12,7 +12,7 @@ class applicationControl extends Controller
         
         return view('application')->with('listing',$listing);
     }
-    public function  store(Request $request, Listing $listing){
+    public function  store(Request $request,){
         
         $form_data=$request->validate([
            'name'=>'required',
@@ -25,10 +25,9 @@ class applicationControl extends Controller
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
-        application::create(['listing_id'=>$listing->id,
-        $form_data
-           
-    ]);
+        application::create($form_data
+      
+    );
         return redirect('/')->with('Success', 'You have successfully applied! Goodluck!');
     }
 }
