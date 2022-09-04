@@ -30,7 +30,9 @@ Route::get('/login',function(){
 Route::post('/login',[userController::class,'login'])->name('login');
 
 Route::get('/listings',function(){
-
+    return view('joblists',[
+        'listings'=>Listing::all()
+    ]);
 });
 //The route to get the listing creation form 
 Route::get('/create',[listControl::class,'create']);
