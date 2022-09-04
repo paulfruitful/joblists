@@ -12,7 +12,7 @@ class applicationControl extends Controller
         
         return view('application')->with('listing',$listing);
     }
-    public function  store(Request $request,){
+    public function  store(Request $request,Listing $listing){
         
         $form_data=$request->validate([
            'name'=>'required',
