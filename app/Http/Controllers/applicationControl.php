@@ -20,6 +20,7 @@ class applicationControl extends Controller
            'coverletter'=>'required',
            'cv'=>'required',
            'portfolio'=>'required'
+           'listing_id'=>'required'
         ]);
 
         if($request->hasFile('cv')){
