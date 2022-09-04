@@ -24,6 +24,5 @@
     </head>
     <body>
         <x-nav-nav/>
-        <p class="m-4 p-6 text-center font-bold text-2xl"> Get The Most Current Jobs</p>
     <x-listing-comp :listing="$list"/>
     </body>
