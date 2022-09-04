@@ -30,6 +30,7 @@ Route::get('/login',function(){
 //User login validation route
 Route::post('/login',[userController::class,'login'])->name('login');
 
+//shows all available jobs
 Route::get('/listings',function(){
     return view('joblists',[
         'list'=>Listing::latest()->get()
