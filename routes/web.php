@@ -29,8 +29,9 @@ Route::get('/login',function(){
 //User login validation route
 Route::post('/login',[userController::class,'login'])->name('login');
 
-
+//The route to get the listing creation form 
 Route::get('/create',[listControl::class,'create']);
+//The route to create a job listing
 Route::post('/create', [listControl::class,'store']);
 //The route to get an individual listing
 Route::get('/{listing}',[listControl::class,'show']);
