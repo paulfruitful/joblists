@@ -27,6 +27,6 @@ class applicationControl extends Controller
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
         application::create($form_data);
-        return redirect('/')->with('Success', 'You have successfully applied! Goodluck!');
+        return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
 }
