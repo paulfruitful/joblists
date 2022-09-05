@@ -30,9 +30,9 @@
         </div>
             <div class="max-w-sm items-center">
              
-                @if(count($listing)>1)
-        @foreach ($listing as $list)
-             <a href="/{{$listing->id}}">   
+                @if(count($listings)>1)
+        @foreach ($listings as $list)
+             <a href="/{{$list->id}}">   
         
         <div class="max-w-sm relative">
             <a href="/{{$list->id}}">
