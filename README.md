@@ -1,4 +1,5 @@
-
+<img class="block lg:hidden h-12 w-16" src="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png" alt="Logo">
+            
 <h1>Joblists</h1><b>
 
 <p>This app was created for the purpose of open source with the aim of educating aspiring developers(Laravel) to find development easier.<br>
