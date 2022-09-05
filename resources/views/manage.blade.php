@@ -26,7 +26,7 @@
         <x-nav-nav/>
       
                 <div class="text-center">
-            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-900 ">Your Job Listings <span class="bg-gray-300 text-white p-2 rounded relative"></span></h1>
+            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-900 ">Your Job Listings <span class="bg-gray-300 text-white p-2 rounded relative">{{$listings->count()}}</span></h1>
         </div>
             <div class="max-w-sm items-center">
              
