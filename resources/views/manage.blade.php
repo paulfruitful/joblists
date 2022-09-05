@@ -29,10 +29,10 @@
             <h1 class="text-black text-2xl font-bold tracking-tight mb-12 m-4 flex-wrap">Current Job Listings</h1>
         </div>
             <div class="max-w-sm items-center">
-              <a href="/{{$listing->id}}">   
+             
                 @if(count($listing)>1)
         @foreach ($listing as $list)
-            
+             <a href="/{{$listing->id}}">   
         
         <div class="max-w-sm relative">
             <a href="/{{$list->id}}">
