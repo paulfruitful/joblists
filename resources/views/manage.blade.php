@@ -26,7 +26,7 @@
         <x-nav-nav/>
       
                 <div class="text-center">
-            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-900 ">Your Job Listings <span class="bg-white text-black ml-4 p-1 rounded-full relative">{{$listings->count()}}</span></h1>
+            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-900 ">Your Job Listings <span class="bg-white text-black ml-4 p-4 rounded-full relative">{{$listings->count()}}</span></h1>
         </div>
             <div class="max-w-sm items-center">
              
@@ -35,11 +35,11 @@
              <a href="/{{$list->id}}">   
         
         <div class="max-w-sm relative">
-            <a href="/{{$list->id}}">
+           
         <div class="border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
           
-        </div></a>
+        </div>
         </div> </a>
         @endforeach
         
