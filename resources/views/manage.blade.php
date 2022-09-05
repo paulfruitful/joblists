@@ -34,9 +34,9 @@
         @foreach ($listings as $list)
              <a href="/{{$list->id}}">   
         
-        <div class="max-w-sm relative border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
+        <div class="relative border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
            
-        <div class="">
+        <div class="w-full">
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
             <div class="m-4 object-right">
                <form action="/{{$list->id}}/delete" method="post">
