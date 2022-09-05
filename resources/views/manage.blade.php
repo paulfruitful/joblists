@@ -25,7 +25,7 @@
     <body>
         <x-nav-nav/>
         <div class="text-center">
-            <h1 class="text-black text-2xl font-bold tracking-tight mb-12 m-4 ">Current Job Listings</h1>
+            <h1 class="text-black text-2xl font-bold tracking-tight mb-12 m-4 flex-wrap">Current Job Listings</h1>
         </div>
             <div class="max-w-sm items-center">
                 @if(count($listing)>1)
