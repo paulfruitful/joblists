@@ -40,12 +40,13 @@
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
           
         </div>
+        <div class="m-4">
                <form action="/{{$list->id}}/delete" method="post">
              @csrf
              @method('DELETE')
              <button type="submit" class="  right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
               <a href="/{{$list->id}}/edit" class="py-2  px-4 bg-indigo-700 text-white border border-transparent rounded-md">Edit List</a>
-           </form> 
+           </form> </div>
         </div> </a>
         @endforeach
         
