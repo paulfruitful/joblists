@@ -39,7 +39,7 @@
         <div class="border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
           
-        </div><div class="flex-wrap">
+        </div><div class="flex-wrap relative">
                <form action="/{{$list->id}}/delete" method="post">
              @csrf
              @method('DELETE')
