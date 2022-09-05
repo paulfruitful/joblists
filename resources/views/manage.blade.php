@@ -40,7 +40,6 @@
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
           
         </div><div class="flex-wrap">
-            <div class="mx-auto"></div>
                <form action="/{{$list->id}}/delete" method="post">
              @csrf
              @method('DELETE')
