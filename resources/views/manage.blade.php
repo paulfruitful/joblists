@@ -26,7 +26,7 @@
         <x-nav-nav/>
       
                 <div class="text-center">
-            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-700 ">Your Job Listings</h1>
+            <h1 class="text-white text-2xl font-bold tracking-tight mb-12 m-4 p-6 bg-indigo-300 ">Your Job Listings</h1>
         </div>
             <div class="max-w-sm items-center">
              
