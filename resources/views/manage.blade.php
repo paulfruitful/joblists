@@ -34,7 +34,7 @@
         @foreach ($listings as $list)
              <a href="/{{$list->id}}">   
         
-        <div class="relative border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
+        <div class="min-w-sm relative border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-6 flex hover:border-indigo-500 w-screen shadow-lg shadow-blacks w-full ">
            
         <div class="w-full">
            <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
