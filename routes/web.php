@@ -43,9 +43,7 @@ Route::get('/manage',function(){
         'listings'=>auth()->user()->listing
     ]);
 });
-Route::get('/applications', function(){
-    
-});
+Route::get('/applications',[]);
 //The route to get the listing creation form 
 Route::get('/create',[listControl::class,'create']);
 //The route to create a job listing
