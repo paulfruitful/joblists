@@ -41,16 +41,7 @@
             <td>Malcolm Lockyer</td>
             <td>1961</td>
           </tr>
-          <tr>
-            <td>Witchy Woman</td>
-            <td>The Eagles</td>
-            <td>1972</td>
-          </tr>
-          <tr>
-            <td>Shining Star</td>
-            <td>Earth, Wind, and Fire</td>
-           
-          </tr>
+        
       
       
           
