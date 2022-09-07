@@ -24,7 +24,7 @@
     </head>
     <body>
         <x-nav-nav/>
-        <div class="max-w-full">
+        <div class="max-w-full mt-4">
       
           </tr>
         </thead>
