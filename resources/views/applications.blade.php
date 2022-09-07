@@ -24,5 +24,8 @@
     </head>
     <body>
         <x-nav-nav/>
+     @if (count($applications)>0)
+         
+     @endif
     </body>
     </html>
