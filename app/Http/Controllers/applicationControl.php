@@ -24,10 +24,11 @@ class applicationControl extends Controller
            'portfolio'=>'required',
            'listing_id'=>'required'
         ]);
-//It checks whether a file was added on the form and saves it to the public/cv folder in the storage/app directory 
+       //It checks whether a file was added on the form and saves it to the public/cv folder in the storage/app directory 
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
+
         application::create($form_data);
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
