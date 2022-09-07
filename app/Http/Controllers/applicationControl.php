@@ -34,5 +34,7 @@ class applicationControl extends Controller
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
     //Show all applications a user has received 
-    p
+    public function index(){
+        
+    }
 }
