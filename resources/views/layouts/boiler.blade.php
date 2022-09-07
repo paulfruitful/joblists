@@ -158,9 +158,9 @@ x-data="{open:false,menu:false, lokasi:false}">
                     <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
                   </div>
                   <a href="/login" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"> Log in </a>
-                </div>
+               
               </div>
-            </div>
+            </div> </div>
       
             <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="sm:text-center lg:text-left">
