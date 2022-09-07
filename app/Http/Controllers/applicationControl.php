@@ -8,10 +8,12 @@ use Illuminate\Http\Request;
 
 class applicationControl extends Controller
 {
+    //It leads to the view containing the application form
     public function create(Listing $listing){
         
         return view('application')->with('listing',$listing);
     }
+    //It is the controller that collects the data in from the application form view and stores it in the database
     public function  store(Request $request,Listing $listing){
         
         $form_data=$request->validate([
