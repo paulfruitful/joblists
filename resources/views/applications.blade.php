@@ -40,7 +40,7 @@
           
      
           <tr>
-            <td>{{}}</td>
+            <td>{{$application->name}}</td>
             <td>Malcolm Lockyer</td>
             
           </tr>
