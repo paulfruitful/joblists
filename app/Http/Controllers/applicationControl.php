@@ -39,4 +39,6 @@ class applicationControl extends Controller
             'applications'=>auth()->user()->application
         ]);
     }
+    //Show a single application
+    
 }
