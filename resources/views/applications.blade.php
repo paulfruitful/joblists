@@ -66,9 +66,7 @@
                   <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                     Otto
                   </td>
-                  <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                    @mdo
-                  </td>
+                  
                 </tr class="bg-white border-b">
            
          @endforeach
