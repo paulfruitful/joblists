@@ -33,4 +33,6 @@ class applicationControl extends Controller
         //Redirects the applicant back to the homepage
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
+    //Show all applications a user has received 
+    p
 }
