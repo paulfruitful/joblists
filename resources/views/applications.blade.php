@@ -25,8 +25,7 @@
     <body>
         <x-nav-nav/>
         <div class="max-w-lg"></div>
-     @if (count($applications)>0)
-     <table class="table-auto">
+         <table class="table-auto">
         <thead>
           <tr>
             <th>Song</th>
@@ -35,6 +34,8 @@
           </tr>
         </thead>
         <tbody>
+     @if (count($applications)>0)
+    
           <tr>
             <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
             <td>Malcolm Lockyer</td>
