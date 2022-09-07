@@ -37,6 +37,6 @@ class applicationControl extends Controller
     public function index(){
         return view('applications',[
             'applications'=>auth()->user()->listings->applications
-        ])
+        ]);
     }
 }
