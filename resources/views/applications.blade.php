@@ -24,3 +24,5 @@
     </head>
     <body>
         <x-nav-nav/>
+    </body>
+    </html>
