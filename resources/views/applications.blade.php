@@ -41,7 +41,7 @@
      
           <tr>
             <td>{{$application->name}}</td>
-            <td></td>
+            <td><a href="/applications/{{$application->id}}" class="bg-indigo-800 text-white p-6 ml-2"></a></td>
             
           </tr>
          @endforeach
