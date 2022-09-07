@@ -35,9 +35,9 @@
         </thead>
         <tbody>
      @if (count($applications)>0)
-    
+      
           <tr>
-            <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+            <td>{{}}</td>
             <td>Malcolm Lockyer</td>
             
           </tr>
