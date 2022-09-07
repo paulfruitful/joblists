@@ -51,13 +51,14 @@
             <td>Earth, Wind, and Fire</td>
            
           </tr>
-        </tbody>
-      </table>
+      
       
           
       @else
           <p class="text-center font-bold text-xl "> No Applications Received</p>
       
-     @endif
+     @endif 
+     </tbody>
+      </table>
     </body>
     </html>
