@@ -15,16 +15,16 @@ class applicationControl extends Controller
     }
     //It is the controller that collects the data in from the application form view and stores it in the database
     public function  store(Request $request,Listing $listing){
-        
+        //It validates the form data 
         $form_data=$request->validate([
-           'name'=>'required',
+           'name'=>'required',//It makes sure the name input was filled
            'email'=>'required',
            'coverletter'=>'required',
            'cv'=>'required',
            'portfolio'=>'required',
            'listing_id'=>'required'
         ]);
-
+//
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
