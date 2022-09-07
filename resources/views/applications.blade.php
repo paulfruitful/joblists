@@ -62,7 +62,7 @@
                    {{$application->name}}
                   </td>
                   <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                  <a href="applications/{{$application->id}}" class="p-4 text-white border rounded ml-2 bg-indigo-800">View Application</a>
+                  <a href="applications/{{$application->id}}" class="p-4 text-white border border-transparent rounded-md ml-2 bg-indigo-800">View Application</a>
                   </td>
                   
                 </tr class="bg-white border-b">
