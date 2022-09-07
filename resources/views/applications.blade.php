@@ -65,21 +65,19 @@
                   </td>
                 </tr class="bg-white border-b">
            
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+       
             
       @foreach ($applications as $application)
           
      
        
          @endforeach
-      
-       </tbody>
-      </table>
+             </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
           
       @else
           <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
