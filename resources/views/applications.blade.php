@@ -46,13 +46,13 @@
           </tr>
          @endforeach
       
-      
+       </tbody>
+      </table>
           
       @else
           <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
       
      @endif 
-     </tbody>
-      </table>
+    
     </body>
     </html>
