@@ -25,16 +25,17 @@
     <body>
         <x-nav-nav/>
         <div class="max-w-lg"></div>
-         <table class="table-auto">
+      
+          </tr>
+        </thead>
+        <tbody>
+     @if (count($applications)>0) 
+       <table class="table-auto">
         <thead>
           <tr>
             <th>Applicants Name</th>
             <th>View Application</th>
             
-          </tr>
-        </thead>
-        <tbody>
-     @if (count($applications)>0)
       @foreach ($applications as $application)
           
      
@@ -48,7 +49,7 @@
       
           
       @else
-          <p class="text-center font-bold text-xl "> No Applications Received</p>
+          <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
       
      @endif 
      </tbody>
