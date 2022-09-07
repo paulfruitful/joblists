@@ -24,10 +24,11 @@
     </head>
     <body>
         <x-nav-nav/>
+        <div class="max-w-lg"></div>
      @if (count($applications)>0)
          <table>
             <tr>
-                
+
             </tr>
 
          </table>
