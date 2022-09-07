@@ -25,7 +25,10 @@
     <body>
         <x-nav-nav/>
      @if (count($applications)>0)
-         
+         <table>
+            <tr>
+                
+         </table>
      @endif
     </body>
     </html>
