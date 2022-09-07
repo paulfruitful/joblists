@@ -41,7 +41,7 @@
      
           <tr>
             <td>{{$application->name}}</td>
-            <td>Malcolm Lockyer</td>
+            <td></td>
             
           </tr>
          @endforeach
