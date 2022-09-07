@@ -28,8 +28,8 @@
          <table class="table-auto">
         <thead>
           <tr>
-            <th>Song</th>
-            <th>Artist</th>
+            <th>Applicants Name</th>
+            <th>View Application</th>
             
           </tr>
         </thead>
