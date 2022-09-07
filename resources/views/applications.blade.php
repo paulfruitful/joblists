@@ -55,7 +55,7 @@
       
           
       @else
-          
+          <p class="text-center font-bold text-xl "> No Applications Received</p>
       
      @endif
     </body>
