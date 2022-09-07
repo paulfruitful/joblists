@@ -36,7 +36,7 @@ class applicationControl extends Controller
     //Show all applications a user has received 
     public function index(){
         return view('applications',[
-            'applications'=>auth()->user()->listings->applications
+            'applications'=>auth()->user()->listings->application
         ]);
     }
 }
