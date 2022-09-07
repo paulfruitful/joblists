@@ -41,10 +41,10 @@
                     #
                   </th>
                   <th scope="col" class="text-sm font-medium text-white px-6 py-4">
-                    First
+                  Applicant
                   </th>
                   <th scope="col" class="text-sm font-medium text-white px-6 py-4">
-                    Last
+                   View
                   </th>
                 
                 </tr>
