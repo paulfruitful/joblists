@@ -30,6 +30,7 @@ class applicationControl extends Controller
         }
         //makes the sql query and add the data to the database
         application::create($form_data);
+        //Redirects the applicant back to the homepage
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
 }
