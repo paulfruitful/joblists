@@ -24,7 +24,7 @@
     </head>
     <body>
         <x-nav-nav/>
-        <div class="max-w-lg"></div>
+        <div class="max-w-lg">
       
           </tr>
         </thead>
@@ -79,6 +79,6 @@
           <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
       
      @endif 
-    
+    </div>
     </body>
     </html>
