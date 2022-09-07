@@ -28,7 +28,7 @@ class applicationControl extends Controller
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
-
+        //makes the sql query and add the data to the database
         application::create($form_data);
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
