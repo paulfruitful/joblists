@@ -35,13 +35,15 @@
         </thead>
         <tbody>
      @if (count($applications)>0)
-      
+      @foreach ($applications as $application)
+          
+     
           <tr>
             <td>{{}}</td>
             <td>Malcolm Lockyer</td>
             
           </tr>
-        
+         @endforeach
       
       
           
