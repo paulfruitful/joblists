@@ -48,7 +48,7 @@
           <tr>
             <td>Shining Star</td>
             <td>Earth, Wind, and Fire</td>
-            <td>1975</td>
+           
           </tr>
         </tbody>
       </table>
