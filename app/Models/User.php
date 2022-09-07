@@ -46,6 +46,6 @@ class User extends Authenticatable
       return  $this->hasMany(Listing::class,'user_id');
     }
     public function application(){
-        
+        return $this->hasManyThrough(application::class,Listing::class);
     }
 }
