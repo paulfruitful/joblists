@@ -39,7 +39,7 @@ Route::get('/listings',function(){
 
 Route::get('/manage',function(){
    if(!auth()->user()->listing){
-    return view()
+    return view('error');
    }
     return view('manage',[
         'listings'=>auth()->user()->listing
