@@ -22,7 +22,7 @@
         </style>
     </head>
 <body>
-<form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-indigo-600" id="register" action="/login" method="POST">
+<form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-transparent" id="register" action="/login" method="POST">
     <div class="p-6"><p class="text-center text-gray-900 text-3xl font-bold">Welcome Back!</p></div>
     @csrf
     <div class="flex flex-wrap -mx-3 mb-6">
