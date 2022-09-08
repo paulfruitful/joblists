@@ -109,18 +109,7 @@ x-data="{open:false,menu:false, lokasi:false}">
               -->
               <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
              
-                <div class="flex items-center px-2 lg:px-0">
-                
-                  <div x-show="menu" class="block md:hidden">
-                    <div class="px-2 pt-2 pb-3">
-                   <a href="/listings" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"> Jobs</a>
-                      <a href="/manage" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Manage Listings </a>
-                      <a href="/applications" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Received Applications</a>
-                    
-                      <a href="/logout" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Logout</a>
-                    </div>
-                  </div>
-                </div>
+           
             </div> </div>
       
             <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
