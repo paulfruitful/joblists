@@ -51,7 +51,7 @@ Route::post('/create', [listControl::class,'store'])->middleware('auth');
 //The route to get an individual listing
 Route::get('/{listing}',[listControl::class,'show'])->middleware('auth');
 //The route to get the edit listing form view
-Route::get('/{listing}/edit',[listControl::class,'edit']);
+Route::get('/{listing}/edit',[listControl::class,'edit'])->middleware('auth');
 //The route for the edit listing action
 Route::put('/{listing}/edit',[listControl::class,'update']);
 //The route to the deletion of a listing
