@@ -59,4 +59,4 @@ Route::delete('/{listing}/delete',[listControl::class,'destroy'])->middleware('a
 //The route to the application form
 Route::get('/{listing}/apply',[applicationControl::class,'create'])->middleware('auth');
 
-Route::post('/{listing}/apply',[applicationControl::class,'store']);
+Route::post('/{listing}/apply',[applicationControl::class,'store'])->middleware('auth');
