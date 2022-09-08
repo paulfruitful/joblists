@@ -25,3 +25,4 @@
     <body>
         
         <x-nav-nav/>
+        <div class="p-6 m-4 items-center"><p class="text-center text-red-700">No Listings</p></div>
