@@ -53,7 +53,7 @@ Route::get('/{listing}',[listControl::class,'show'])->middleware('auth');
 //The route to get the edit listing form view
 Route::get('/{listing}/edit',[listControl::class,'edit'])->middleware('auth');
 //The route for the edit listing action
-Route::put('/{listing}/edit',[listControl::class,'update']);
+Route::put('/{listing}/edit',[listControl::class,'update'])->middleware('auth');
 //The route to the deletion of a listing
 Route::delete('/{listing}/delete',[listControl::class,'destroy']);
 //The route to the application form
