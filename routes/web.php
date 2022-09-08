@@ -49,7 +49,7 @@ Route::get('/create',[listControl::class,'create'])->middleware('auth');
 //The route to create a job listing
 Route::post('/create', [listControl::class,'store'])->middleware('auth');
 //The route to get an individual listing
-Route::get('/{listing}',[listControl::class,'show']);
+Route::get('/{listing}',[listControl::class,'show'])->middleware('auth');
 //The route to get the edit listing form view
 Route::get('/{listing}/edit',[listControl::class,'edit']);
 //The route for the edit listing action
