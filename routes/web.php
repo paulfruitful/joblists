@@ -35,7 +35,7 @@ Route::get('/listings',function(){
     return view('joblists',[
         'list'=>Listing::latest()->get()
     ]);
-});
+})->middleware('auth');
 
 Route::get('/manage',function(){
    
