@@ -99,12 +99,7 @@ x-data="{open:false,menu:false, lokasi:false}">
                   </button>
               </div>
           </div>
-          <div class="flex flex-col md:flex-row hidden md:block -mx-2">
-              <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">About</a>
-              <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Sign Up</a>
-              <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Sign In</a>
-          </div>
-      </div>
+        
   </nav>
   <div class="flex bg-white" style="height:600px;">
       <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
