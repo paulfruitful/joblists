@@ -53,7 +53,7 @@
             
         @else
             
-         <div class="p-6 items-center"><p class="text-red-700 text-center text-4xl font-semibold">No Listings</p></div>
+         <div class="p-6 text-center items-center"><p class="text-red-700 text-center text-4xl font-semibold">No Listings</p></div>
         @endif
             </div>
     </body>
