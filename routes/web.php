@@ -38,7 +38,9 @@ Route::get('/listings',function(){
 })->middleware('auth');
 
 Route::get('/manage',function(){
-   
+   if(!auth()->user()->listing){
+    return view()
+   }
     return view('manage',[
         'listings'=>auth()->user()->listing
     ])->middleware('auth');
