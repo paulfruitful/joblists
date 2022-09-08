@@ -29,7 +29,7 @@
             </h1>
             <p class="px-8 mt-8 mb-12 text-lg text-gray-700">Welcome to the registration page, click the get started buttton to register on our platform and get the right job for you today!</p>
             <div class="flex flex-wrap justify-center">
-                <a class="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-900 text-white hover:bg-indigo-700" href="#register">Get started</a>
+                <a class="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-900 text-white hover:bg-gray-700" href="#register">Get started</a>
                 </div>
         </div>
     </section>
