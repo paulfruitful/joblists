@@ -87,8 +87,8 @@ x-data="{open:false,menu:false, lokasi:false}">
   <nav class="bg-white shadow-lg">
       <div class="md:flex items-center justify-between py-2 px-8 md:px-12">
           <div class="flex justify-between items-center">
-             <div class="text-2xl font-bold text-gray-800 md:text-3xl">
-                  <a href="/" class="text-center text-4xl">Joblists</a>
+             <div class="text-2xl font-bold text-gray-800  md:text-3xl">
+                  <a href="/" class="text-center text-4xl m-4">Joblists</a>
              </div>
            
           </div>
