@@ -43,7 +43,7 @@ Route::get('/manage',function(){
    }
     return view('manage',[
         'listings'=>auth()->user()->listing
-    ])->middleware('auth');
+    ]);
 });
 Route::get('/applications',[applicationControl::class,'index'])->middleware('auth');
 //The route to get the listing creation form 
