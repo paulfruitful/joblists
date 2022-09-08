@@ -96,40 +96,6 @@ x-data="{open:false,menu:false, lokasi:false}">
               </svg>
             </button>
       
-            <div>
-              <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-                <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-                  <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                    <div class="flex items-center justify-between w-full md:w-auto">
-                      <a href="#">
-                        <span class="sr-only">Workflow</span>
-                        <img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png">
-                      </a>
-                      <div class="-mr-2 flex items-center md:hidden">
-                     
-                       
-                        
-                        <span class="sr-only">Open main menu</span>
-                          <!-- Heroicon name: outline/menu -->
-                          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">About</a>
-      
-      
-                    <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Featured Jobs</a>
-      
-                    <a href="/register" class="font-medium text-red-500 hover:text-indigo-900">Register</a>
-      
-                    <a href="/login" class="font-medium text-red-600 hover:text-indigo500">Log in</a>
-                  </div>
-                </nav>
-              </div>
       
               <!--
                 Mobile menu, show/hide based on menu open state.
