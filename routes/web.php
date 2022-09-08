@@ -55,7 +55,7 @@ Route::get('/{listing}/edit',[listControl::class,'edit'])->middleware('auth');
 //The route for the edit listing action
 Route::put('/{listing}/edit',[listControl::class,'update'])->middleware('auth');
 //The route to the deletion of a listing
-Route::delete('/{listing}/delete',[listControl::class,'destroy']);
+Route::delete('/{listing}/delete',[listControl::class,'destroy'])->middleware('auth');
 //The route to the application form
 Route::get('/{listing}/apply',[applicationControl::class,'create']);
 
