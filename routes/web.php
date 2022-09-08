@@ -41,13 +41,13 @@ Route::get('/manage',function(){
    
     return view('manage',[
         'listings'=>auth()->user()->listing
-    ]);
+    ])->middleware('auth');
 });
-Route::get('/applications',[applicationControl::class,'index']);
+Route::get('/applications',[applicationControl::class,'index'])->middleware('auth');
 //The route to get the listing creation form 
-Route::get('/create',[listControl::class,'create']);
+Route::get('/create',[listControl::class,'create'])->middleware('auth');
 //The route to create a job listing
-Route::post('/create', [listControl::class,'store']);
+Route::post('/create', [listControl::class,'store'])->middleware('auth');
 //The route to get an individual listing
 Route::get('/{listing}',[listControl::class,'show']);
 //The route to get the edit listing form view
