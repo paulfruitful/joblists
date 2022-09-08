@@ -34,7 +34,7 @@
         </div>
     </section>
     <form class="w-full max-w-sm mx-auto m-48 p-6 border rounded  border-transparent" id="register" action="/register" method="POST">
-        <div class="p-6"><p class="text-center text-gray-900  text-2xl font-bold">Register</p></div>
+        <div class="p-6"><p class="text-center text-gray-900  text-2xl font-bold">Join The Network</p></div>
         @csrf
         <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
