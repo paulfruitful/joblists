@@ -97,7 +97,7 @@ x-data="{open:false,menu:false, lokasi:false}">
   <div class="flex bg-white" style="height:600px;">
       <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
-              <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Get A Job<span class="text-indigo-600">Today</span></h2>
+              <h2 class="text-3xl font-semibold text-gray-800 md:text-4xl">Get A Job<span class="text-indigo-600"> Today</span></h2>
               <p class="mt-2 text-sm text-gray-500 md:text-base">Getting A Job Or An Internship Role As A Junior Developer Or Fresher Can Be Tiring. Joblists was built for you to make finding jobs and gigs easily, join the network today by clicking the get started button. </p>
               <div class="flex justify-center lg:justify-start mt-6">
                   <a class="px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800" href="/register">Get Started</a>
