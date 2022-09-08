@@ -137,10 +137,7 @@ x-data="{open:false,menu:false, lokasi:false}">
               <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
              
                 <div class="flex items-center px-2 lg:px-0">
-                  <a class="flex-shrink-0" href="/">
-                    <img class="block lg:hidden h-12 w-16" src="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png" alt="Logo">
-                    <img class="hidden lg:block h-12 w-auto" src="https://www.kindpng.com/picc/m/133-1337806_job-vector-seeker-job-logo-magnifying-glass-png.png" alt="Logo">
-                  </a>
+                
                   <div class="hidden lg:block lg:ml-2">
                     <div class="flex">
                       <a href="#" class="ml-4 px-3 py-2 rounded-md text-md leading-5 font-medium text-white font-semibold hover:bg-red-500 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> Profile </a>
