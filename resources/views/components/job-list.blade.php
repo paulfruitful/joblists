@@ -76,7 +76,7 @@
              
       
            
-     @foreach ($applications as $application)
+     @foreach ($list->application as $application)
          
     
         <tr class="bg-white border-b">
