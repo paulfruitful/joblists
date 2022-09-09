@@ -51,3 +51,10 @@
     <!-- Section: Design Block -->
    
    
+    @if (auth()->id()==$list->user_id)
+
+
+
+    @else
+
+    @endif
