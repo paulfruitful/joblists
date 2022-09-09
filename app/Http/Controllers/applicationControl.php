@@ -40,5 +40,7 @@ class applicationControl extends Controller
         ]);
     }
     //Show a single application
-    
+    public function show(){
+        
+    }
 }
