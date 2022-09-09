@@ -52,7 +52,56 @@
    
    
     @if (auth()->id()==$list->user_id)
-
+    @if (count($applications)>0) 
+    <div class="flex flex-col">
+     <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+       <div class="py-4 inline-block min-w-full sm:px-6 lg:px-8">
+         <div class="overflow-hidden">
+           <table class="min-w-full text-center">
+             <thead class="border-b bg-gray-800">
+               <tr>
+                 <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                   #
+                 </th>
+                 <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                 Applicant
+                 </th>
+                 <th scope="col" class="text-sm font-medium text-white px-6 py-4">
+                  View
+                 </th>
+               
+               </tr>
+             </thead class="border-b">
+             <tbody>
+             
+      
+           
+     @foreach ($applications as $application)
+         
+    
+        <tr class="bg-white border-b">
+                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
+                 <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  {{$application->name}}
+                 </td>
+                 <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                 <a href="applications/{{$application->id}}" class="p-3 text-white border border-transparent rounded-md hover:bg-indigo-500 bg-indigo-900">View Application</a>
+                 </td>
+                 
+               </tr class="bg-white border-b">
+          
+        @endforeach
+            </tbody>
+           </table>
+         </div>
+       </div>
+     </div>
+   </div>
+         
+     @else
+         <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
+     
+    @endif 
 
 
     @else
