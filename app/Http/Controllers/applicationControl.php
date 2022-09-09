@@ -41,6 +41,8 @@ class applicationControl extends Controller
     }
     //Show a single application
     public function show(application $application){
-
+        return view('application-data',[
+            'application'=>$application
+        ]);
     }
 }
