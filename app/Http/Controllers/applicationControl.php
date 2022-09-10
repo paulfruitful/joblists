@@ -6,6 +6,7 @@ use App\Models\Listing;
 use App\Models\application;
 use Illuminate\Http\Request;
 use App\Notifications\Successfulapplication;
+use Illuminate\Support\Facades\Notification;
 
 class applicationControl extends Controller
 {
