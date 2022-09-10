@@ -42,7 +42,9 @@ class Welcome extends Notification
     {
         return (new MailMessage)    
          ->greeting('Welcome To Joblists'.$this->name)
-        ->line('One of your invoices has been paid!')
+        ->line('Joblists was created for you to get flexible internships and remote jobs.')
+        ->line('No matter your level in programming you have a chance at Joblists!')
+        ->line('Smash the view jobs button to get the latest Job offer.')
         ->action('View Jobs', url('/listings'))
         ->line('You are Welcome into our network!');
     }
