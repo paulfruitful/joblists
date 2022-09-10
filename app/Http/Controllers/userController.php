@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Notifications\Welcome;
 use Illuminate\Validation\Rule;
+use Illuminate\Support\Facades\Notification;
 
 class userController extends Controller
 {
@@ -24,6 +26,8 @@ class userController extends Controller
         );
         $formData['password']=bcrypt($formData['password']);
         $user=User::create($formData);
+        Notification::send($user,new Welcome());
+  
         auth()->login($user);
      return redirect('/')->with('success','Account Created Successfully');
     }
