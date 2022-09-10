@@ -97,7 +97,7 @@
        </div>
      </div>
    </div>
-         <p class="text-center text-md text-gray-400 font-bold">---End---</p>
+         <p class="text-center text-md text-gray-400 font-bold mt-4">---End---</p>
      @else
          <p class="text-center font-bold text-xl m-4 p-6"> No Applications Received</p>
      
