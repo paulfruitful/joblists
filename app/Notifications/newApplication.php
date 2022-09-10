@@ -49,7 +49,7 @@ class newApplication extends Notification
                     ->greeting('You Have A New Application')
                     ->line($this->application->name.' '.'Applied For The'.' '.$this->listing->name.' '.'Position')
                     ->line('You can view the applicantion from'.' '.$this->application->name.' '.'using the button below')
-                    ->action('Notification Action', url('/applications/'.$this->application->id))
+                    ->action('View Application', url('/applications/'.$this->application->id))
                     ->line('Thank you for using our application!');
     }
 
