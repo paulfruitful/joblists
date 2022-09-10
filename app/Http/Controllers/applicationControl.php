@@ -26,6 +26,8 @@ class applicationControl extends Controller
            'listing_id'=>'required'
         ]);
         $form_data['name']=auth()->user()->name;
+        
+        $form_data['email']=auth()->user()->email;
        //It checks whether a file was added on the form and saves it to the public/cv folder in the storage/app directory 
         if($request->hasFile('cv')){
             $form_data['cv']=$request->file('cv')->store('cv','public');
