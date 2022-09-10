@@ -11,6 +11,9 @@ class newApplication extends Notification
 {
     use Queueable;
     private $name;
+    private $employee_name;
+    private $aid;
+
     /**
      * Create a new notification instance.
      *
