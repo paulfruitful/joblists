@@ -31,7 +31,7 @@
       <form action="/{{$list->id}}/delete" method="post">
     @csrf
     @method('DELETE')
-    <button type="submit" class="inline-flex bottom-0 right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700">Delete</button>
+    <button type="submit" class="inline-flex bottom-0 right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-800 hover:bg-red-700">Delete</button>
      <a href="/{{$list->id}}/edit" class="py-2 mx-4 px-4 bg-gray-900 text-white border border-transparent rounded-md">Edit List</a>
   </form> </div>
   @else
