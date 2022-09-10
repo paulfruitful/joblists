@@ -43,7 +43,7 @@ class Welcome extends Notification
         return (new MailMessage)    
          ->greeting('Welcome To Joblists'.$this->name)
         ->line('One of your invoices has been paid!')
-        ->action('View Invoice', $url)
+        ->action('View Jobs', '/listings')
         ->line('Thank you for using our application!');
     }
 
