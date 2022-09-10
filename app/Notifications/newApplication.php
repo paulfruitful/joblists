@@ -46,7 +46,7 @@ class newApplication extends Notification
     {
         return (new MailMessage)
                     ->line('You have a new application')
-                    ->action('Notification Action', url('/'))
+                    ->action('Notification Action', url('/applications/'.$this->application->id))
                     ->line('Thank you for using our application!');
     }
 
