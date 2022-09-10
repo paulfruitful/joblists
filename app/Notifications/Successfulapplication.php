@@ -20,7 +20,8 @@ class Successfulapplication extends Notification
      */
     public function __construct($name,$company)
     {
-        //
+        $this->name=$name;
+        $this->company=$company;
     }
 
     /**
