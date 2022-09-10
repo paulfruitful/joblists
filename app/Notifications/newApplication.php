@@ -19,9 +19,10 @@ class newApplication extends Notification
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($listing,$application)
     {
-        //
+        $this->listing=$listing;
+        $this->application=$application;
     }
 
     /**
