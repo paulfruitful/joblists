@@ -16,18 +16,7 @@
             <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
             
 
-              <div class="grid grid-cols-3 gap-6">
-
-                <div class="col-span-3 sm:col-span-2">
-                  <label for="company-website" class="block text-sm font-medium text-gray-700"> E-mail</label>
-                  <div class="mt-1 flex rounded-md shadow-sm">
-                   <input type="email" name="email"  class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300" placeholder="you@example.com">
-                  </div>
-                </div>
-              </div>
-              @error('email')
-              <p class="text-red-500 text-sm">{{$message}}</p>
-          @enderror
+           
               <div class="grid grid-cols-3 gap-6">
                 <div class="col-span-3 sm:col-span-2">
                   <label for="company-website" class="block text-sm font-medium text-gray-700"> Portfolio </label>
