@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Listing;
 use App\Models\application;
 use Illuminate\Http\Request;
+use App\Notifications\Successfulapplication;
 
 class applicationControl extends Controller
 {
