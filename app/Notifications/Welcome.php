@@ -41,9 +41,8 @@ class Welcome extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)    
-         ->greeting('Hello!')
+         ->greeting('Welcome To Joblists'.$this->name)
         ->line('One of your invoices has been paid!')
-        ->lineIf($this->amount > 0, "Amount paid: {$this->amount}")
         ->action('View Invoice', $url)
         ->line('Thank you for using our application!');
     }
