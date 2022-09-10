@@ -13,7 +13,7 @@ style="
   <div class="flex justify-center items-center h-full">
     <div class="text-center text-white px-6 md:px-12">
       <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-        Welcome To Joblists {{auth()->user()->name}}<br /><span class="text-2xl">A Platform For Posting Jobs And Getting Jobs</span>
+        Welcome {{auth()->user()->name}}<br /><span class="text-2xl">A Platform For Posting Jobs And Getting Jobs</span>
       </h1>
       <a
       href="?page=1"
