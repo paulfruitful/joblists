@@ -38,7 +38,7 @@ class applicationControl extends Controller
         $application=application::create($form_data);
         //Send the applicant an email of successful application
         $applicant=auth()->user();
-
+     $delay=now()->addMinutes(1);
         Notification::send($applicant,new Successfulapplication($applicant->name,$listing->company));
         
         Notification::send($listing->user,new newApplication($listing,$application));
