@@ -48,7 +48,7 @@ class Successfulapplication extends Notification
                     ->greetings('You Have Successfully Applied To'.' '.$this->company)
                     ->line('Your application has been sent successfully to'.' '.$this->company)
                     ->line('You can keep applying to other jobs while waiting for a response from'.' '.$this->company)
-                    ->action('Apply For More', url('/'))
+                    ->action('Apply For More Jobs', url('/'))
                     ->line('Thank you for trusting us!');
     }
 
