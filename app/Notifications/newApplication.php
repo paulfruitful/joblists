@@ -47,7 +47,7 @@ class newApplication extends Notification
         return (new MailMessage)
                     ->subject('You have a new application')
                     ->greeting('You Have A New Application')
-                    ->line($this->application->name.' '.'Applied For The'.' '.$this->listing->name.' '.'Position')
+                    ->line($this->application->name.' '.'Applied For The'.' '.$this->listing->title.' '.'Position')
                     ->line('You can view the application from'.' '.$this->application->name.' '.'using the button below')
                     ->action('View Application', url('/applications/'.$this->application->id))
                     ->line('Thank you for using our application!');
