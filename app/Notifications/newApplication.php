@@ -45,7 +45,10 @@ class newApplication extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('You have a new application')
+                    ->subject('You have a new application')
+                    ->greeting('You Have A New Application')
+                    ->line($this->application->name.' '.'Applied For The'.' '.$this->listing->name.' '.'Position')
+                    
                     ->action('Notification Action', url('/applications/'.$this->application->id))
                     ->line('Thank you for using our application!');
     }
