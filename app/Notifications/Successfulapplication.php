@@ -44,7 +44,7 @@ class Successfulapplication extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('Congratulations On'.' '.$this->name.' '.' Your Successful Application!')
+                    ->subject('Congratulations'.' '.$this->name.' '.'On Your Successful Application!')
                     ->greetings('You Have Successfully Applied To'.' '.$this->company)
                     ->line('Your application ')
                     ->action('Apply For More', url('/'))
