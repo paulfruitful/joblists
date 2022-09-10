@@ -26,7 +26,7 @@ class userController extends Controller
         );
         $formData['password']=bcrypt($formData['password']);
         $user=User::create($formData);
-        Notification::send($user,new Welcome($user));
+        Notification::send($user,new Welcome($user->name));
   
         auth()->login($user);
      return redirect('/')->with('success','Account Created Successfully');
