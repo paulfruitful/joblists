@@ -49,7 +49,7 @@
     
     </section>
     <!-- Section: Design Block -->
-   <p class="text-center text-4xl font-bold text-gray-900">Applications Received</p>
+   <p class="text-center text-4xl font-bold text-gray-900 mb-12">Applications Received</p>
    
     @if (auth()->id()==$list->user_id)
     @if (count($list->application)>0) 
