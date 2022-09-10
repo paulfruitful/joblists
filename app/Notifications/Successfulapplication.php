@@ -44,7 +44,7 @@ class Successfulapplication extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
+                    ->subject('Congratulations On Your Successful Application!')
                     ->action('Notification Action', url('/'))
                     ->line('Thank you for using our application!');
     }
