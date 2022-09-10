@@ -18,8 +18,7 @@ class applicationControl extends Controller
     public function  store(Request $request,Listing $listing){
         //It validates the form data 
         $form_data=$request->validate([
-           'name'=>'required',//It makes sure the name input was filled
-           'email'=>'required',
+          
            'coverletter'=>'required',
            'cv'=>'required',
            'portfolio'=>'required',
