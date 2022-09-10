@@ -44,7 +44,7 @@ class Welcome extends Notification
          ->greeting('Welcome To Joblists'.$this->name)
         ->line('One of your invoices has been paid!')
         ->action('View Jobs', '/listings')
-        ->line('Thank you for using our application!');
+        ->line('You are Welcome into our network!');
     }
 
     /**
