@@ -10,7 +10,7 @@ use Illuminate\Notifications\Notification;
 class Welcome extends Notification
 {
     use Queueable;
-
+    private $name;
     /**
      * Create a new notification instance.
      *
