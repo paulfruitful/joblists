@@ -11,6 +11,8 @@ class Successfulapplication extends Notification
 {
     use Queueable;
     private $name;
+    
+    private $company;
     /**
      * Create a new notification instance.
      *
