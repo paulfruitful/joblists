@@ -18,7 +18,7 @@ class Welcome extends Notification
      */
     public function __construct($name)
     {
-        //
+        $this->name=$name;
     }
 
     /**
