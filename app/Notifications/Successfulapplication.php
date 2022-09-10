@@ -46,7 +46,7 @@ class Successfulapplication extends Notification
         return (new MailMessage)
                     ->subject('Congratulations On Your Successful Application!')
                     ->action('Apply For More', url('/'))
-                    ->line('Thank you for using our application!');
+                    ->line('Thank you for trusting us!');
     }
 
     /**
