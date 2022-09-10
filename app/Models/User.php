@@ -15,7 +15,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    $this->notify(new Welcome());
+  Notification::send($this,new Welcome(t));
     /**
      * The attributes that are mass assignable.
      *
