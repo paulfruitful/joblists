@@ -41,7 +41,7 @@ class applicationControl extends Controller
 
         Notification::send($applicant,new Successfulapplication($applicant->name,$listing->company));
         
-        Notification::send($applicant,new newApplication($listing,$application);
+        Notification::send($applicant,new newApplication($listing,$application));
         //Redirects the applicant back to the homepage
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
