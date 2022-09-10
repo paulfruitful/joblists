@@ -16,7 +16,7 @@ class Welcome extends Notification
      *
      * @return void
      */
-    public function __construct($user)
+    public function __construct()
     {
         //
     }
