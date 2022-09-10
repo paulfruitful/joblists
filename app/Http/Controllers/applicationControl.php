@@ -32,7 +32,8 @@ class applicationControl extends Controller
         application::create($form_data);
         //Send the applicant an email of successful application
         $applicant=auth()->user();
-        Notification::send($applicant,new Successfulapplication($applicant->name));
+
+        Notification::send($applicant,new Successfulapplication($applicant->name,$listing->company));
         //Redirects the applicant back to the homepage
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
