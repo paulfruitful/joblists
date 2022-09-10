@@ -12,7 +12,7 @@ style="
 >
   <div class="flex justify-center items-center h-full">
     <div class="text-center text-white px-6 md:px-12">
-      <h1 class="text-4xl md:text-3xl xl:text-3xl font-bold tracking-tight mb-12">
+      <h1 class="text-4xl md:text-4xl xl:text-4xl font-bold tracking-tight mb-12">
         Welcome <span class="text-2xl">{{auth()->user()->name}}</span><br /><span class="text-2xl">A Platform For Posting Jobs And Getting Jobs</span>
       </h1>
       <a
