@@ -49,9 +49,9 @@
     
     </section>
     <!-- Section: Design Block -->
-   <p class="text-center text-4xl font-bold text-gray-900 mb-12">Applications Received</p>
-   
     @if (auth()->id()==$list->user_id)
+    
+   <p class="text-center text-4xl font-bold text-gray-900 mb-12">Applications Received</p>
     @if (count($list->application)>0) 
     <div class="flex flex-col">
      <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
