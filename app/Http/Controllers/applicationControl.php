@@ -19,7 +19,8 @@ class applicationControl extends Controller
     public function  store(Request $request,Listing $listing){
         //Employers Info
         $user=$listing->user;
-                //It validates the form data 
+        
+        //It validates the form data 
         $form_data=$request->validate([
           
            'coverletter'=>'required',
