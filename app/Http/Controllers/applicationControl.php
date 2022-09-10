@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Listing;
 use App\Models\application;
+use App\Notifications\newApplication;
 use Illuminate\Http\Request;
 use App\Notifications\Successfulapplication;
 use Illuminate\Support\Facades\Notification;
@@ -34,11 +35,13 @@ class applicationControl extends Controller
             $form_data['cv']=$request->file('cv')->store('cv','public');
         }
         //makes the sql query and add the data to the database
-        application::create($form_data);
+        $application=application::create($form_data);
         //Send the applicant an email of successful application
         $applicant=auth()->user();
 
         Notification::send($applicant,new Successfulapplication($applicant->name,$listing->company));
+        
+        Notification::send($applicant,new newApplication($listing,$application);
         //Redirects the applicant back to the homepage
         return redirect('/')->with('Success', 'You Have Successfully Applied Goodluck!');
     }
