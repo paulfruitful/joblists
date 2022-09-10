@@ -41,6 +41,7 @@ class Welcome extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)    
+        ->subject('Welcome to Joblists')
          ->greeting('Welcome To Joblists'.$this->name)
         ->line('Joblists was created for you to get flexible internships and remote jobs.')
         ->line('No matter your level in programming you have a chance at Joblists!')
