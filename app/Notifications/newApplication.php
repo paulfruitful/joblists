@@ -10,9 +10,9 @@ use Illuminate\Notifications\Notification;
 class newApplication extends Notification
 {
     use Queueable;
-    private $name;
-    private $employee_name;
-    private $aid;
+    private $listing;
+    private $application;
+    
 
     /**
      * Create a new notification instance.
