@@ -45,7 +45,7 @@ class Successfulapplication extends Notification
     {
         return (new MailMessage)
                     ->subject('Congratulations'.' '.$this->name.' '.'On Your Successful Application!')
-                    ->greetings('You Have Successfully Applied To'.' '.$this->company)
+                    ->greeting('You Have Successfully Applied To'.' '.$this->company)
                     ->line('Your application has been sent successfully to'.' '.$this->company)
                     ->line('You can keep applying to other jobs while waiting for a response from'.' '.$this->company)
                     ->action('Apply For More Jobs', url('/'))
