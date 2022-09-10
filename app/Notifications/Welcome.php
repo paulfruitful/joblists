@@ -40,10 +40,12 @@ class Welcome extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+        return (new MailMessage)    
+         ->greeting('Hello!')
+        ->line('One of your invoices has been paid!')
+        ->lineIf($this->amount > 0, "Amount paid: {$this->amount}")
+        ->action('View Invoice', $url)
+        ->line('Thank you for using our application!');
     }
 
     /**
