@@ -17,7 +17,9 @@ class applicationControl extends Controller
     }
     //It is the controller that collects the data in from the application form view and stores it in the database
     public function  store(Request $request,Listing $listing){
-        //It validates the form data 
+        //Employers Info
+        $user=$listing->user;
+                //It validates the form data 
         $form_data=$request->validate([
           
            'coverletter'=>'required',
