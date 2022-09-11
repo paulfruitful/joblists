@@ -52,7 +52,7 @@
                     <p class="text-gray-700 font-semibold"> Check Out The Applicant's Name, Email, Curriculum Vitae and Portfolio </p>
      
                     <ul>
-                        <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
+                        <li><span class="text-gray-900 font-bold  border-solid border-b-2 border-gray-900 ">Name:</span>{{$application->name}}</li>
                       
                         <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
                     </ul>
