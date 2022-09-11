@@ -30,7 +30,7 @@
                     <div class="sticky top-0 p-4 bg-white rounded-xl w-full">
                         <ul class="nav flex flex-col overflow-hidden">
                             <li class="nav-item">
-                                <a class="nav-link text-gray-900 hover:text-gray-600 truncate" href="/#home">
+                                <a class="nav-link text-gray-900 hover:text-gray-600 truncate" href="#home">
                                    Information
                                 </a>
                             </li>
