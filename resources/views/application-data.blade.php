@@ -52,7 +52,7 @@
                     <p class="text-gray-700 font-semibold"> Check Out The Applicant's Name, Email, Curriculum Vitae and Portfolio </p>
      
                     <ul>
-                        <li class="  border-solid border-b-2 border-gray-900"><span class="text-gray-900 font-bold ">Name:</span> {{$application->name}}</li>
+                        <li class="  border-solid border-b-2 border-gray-900"><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                       
                     </ul>
                     <p class="pt-4"> The aside (left) column: </p>
