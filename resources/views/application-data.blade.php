@@ -36,7 +36,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-purple-800 hover:text-purple-600 truncate" href="/#orders">
-                                    
+                                    Cover Letter
                                 </a>
                             </li>
                             <li class="nav-item">
