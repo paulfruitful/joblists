@@ -41,7 +41,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-purple-800 hover:text-purple-600" href="/#products">
-                                    <span class="fa fa-cart-plus mr-2"></span> Products </a>
+                                    <span class="fa fa-cart-plus mr-2"></span> Portfolio</a>
                             </li>
                            
                         </ul>
