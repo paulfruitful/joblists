@@ -55,21 +55,7 @@
                         <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                       
                     </ul>
-                    <p class="pt-4"> The aside (left) column: </p>
-                    <ul>
-                        <li>w-full - for 100% width</li>
-                        <li>sm:w-1/3 - for 33% width on sm and larger</li>
-                        <li>md:w-1/4 - for 25% width on md and larger</li>
-                        <li>px-2 - for <code>padding-(left|right): .5rem</code></li>
-                    </ul>
-                    <p class="pt-4"> The main (right) column: </p>
-                    <ul>
-                        <li>w-full - for 100% width</li>
-                        <li>sm:w-1/3 - for 66% width on sm and larger</li>
-                        <li>md:w-1/4 - for 75% width on md and larger</li>
-                        <li>pt-1 - for <code>padding-top: .25rem</code></li>
-                        <li>px-2 - for <code>padding-(left|right): .5rem</code></li>
-                    </ul>
+                   
                     <hr class="my-5">
                     <section class="min-h-screen" id="orders">
                         <h1 class="text-2xl mt-5">Orders</h1>
