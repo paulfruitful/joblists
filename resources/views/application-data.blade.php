@@ -51,7 +51,7 @@
                     <h1 class="text-2xl" id="home">Applicant's Information</h1>
                     <p class="text-gray-700 font-semibold"> Check Out The Applicant's Name, Email, Curriculum Vitae and Portfolio </p>
      
-                    <ul>
+                    <ul class="mt-4">
                         <li class="  border-solid border-b-2 border-gray-900"><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                       
                     </ul>
