@@ -54,7 +54,6 @@
                     <ul>
                         <li><span class="text-gray-900 font-bold  border-solid border-b-2 border-gray-900 ">Name:</span>{{$application->name}}</li>
                       
-                        <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
                     </ul>
                     <p class="pt-4"> The aside (left) column: </p>
                     <ul>
