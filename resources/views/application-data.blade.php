@@ -48,7 +48,7 @@
                     </div>
                 </aside>
                 <main role="main" class="w-full sm:w-2/3 md:w-3/4 pt-1 px-2">
-                    <h1 class="text-2xl" id="home">Main Content</h1>
+                    <h1 class="text-2xl" id="home">Applicant's Information</h1>
                     <p>Let's look at the base Tailwind classes that are used for this layout. There are 2 columns. The left sidebar (aside), and the main content area on the right. </p>
                     <p class="pt-4"> The flexbox (parent) container: </p>
                     <ul>
