@@ -53,7 +53,7 @@
      
                     <ul class="mt-4">
                         <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
-                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
+                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Email: </span> {{$application->email}}</li>
                         <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                         <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                       
