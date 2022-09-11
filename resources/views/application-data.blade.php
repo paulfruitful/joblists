@@ -53,9 +53,8 @@
      
                     <ul>
                         <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
-                        <li>flex-row - for <code>flex-direction: row</code></li>
-                        <li>flex-wrap - for <code>flex-wrap: wrap</code></li>
-                        <li>py-4 - for <code>padding-(top|bottom): 1rem</code></li>
+                      
+                        <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
                     </ul>
                     <p class="pt-4"> The aside (left) column: </p>
                     <ul>
