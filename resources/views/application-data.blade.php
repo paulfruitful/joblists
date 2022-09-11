@@ -31,12 +31,12 @@
                         <ul class="nav flex flex-col overflow-hidden">
                             <li class="nav-item">
                                 <a class="nav-link text-purple-800 hover:text-gray-900 truncate" href="/#home">
-                                    Cover Letter
+                                   Information
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-purple-800 hover:text-purple-600 truncate" href="/#orders">
-                                    <span class="fa fa-list-alt mr-2"></span>  </a>
+                                     </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-purple-800 hover:text-purple-600" href="/#products">
