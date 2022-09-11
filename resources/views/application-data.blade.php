@@ -52,7 +52,7 @@
                     <p class="text-gray-700 font-semibold"> Check Out The Applicant's Name, Email, Curriculum Vitae and Portfolio </p>
      
                     <ul>
-                        <li><span class="text-purple-700">flex</span> - for <code>dislay:flex</code></li>
+                        <li><span class="text-gray-900 font-bold">Name:</span>{{$application->name}}</li>
                         <li>flex-row - for <code>flex-direction: row</code></li>
                         <li>flex-wrap - for <code>flex-wrap: wrap</code></li>
                         <li>py-4 - for <code>padding-(top|bottom): 1rem</code></li>
