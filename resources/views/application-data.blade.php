@@ -42,18 +42,7 @@
                                 <a class="nav-link text-purple-800 hover:text-purple-600" href="/#products">
                                     <span class="fa fa-cart-plus mr-2"></span> Products </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-purple-800 hover:text-purple-600" href="/#customers">
-                                    <span class="fa fa-user mr-2"></span> Customers </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-purple-800 hover:text-purple-600" href="/#reports">
-                                    <span class="fa fa-chart-bar mr-2"></span> Reports </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-purple-800 hover:text-purple-600" href="/#int">
-                                    <span class="fa fa-layer-group mr-2"></span> Integrations </a>
-                            </li>
+                           
                         </ul>
                     </div>
                 </aside>
