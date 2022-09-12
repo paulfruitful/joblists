@@ -130,3 +130,4 @@
     </div>
   </div>
   @endauth
+  <x-footer/>
