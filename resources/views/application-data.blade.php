@@ -52,10 +52,10 @@
                     <p class="text-gray-700 font-semibold"> Check Out The Applicant's Name, Email, Curriculum Vitae and Portfolio </p>
      
                     <ul class="mt-4">
-                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
-                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Email: </span> {{$application->email}}</li>
-                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Resume: </span><a href="/storage/{{$application->cv}}" class="text-purple-800">Click The Link</a></li>
-                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold ">Portfolio: </span> {{$application->name}}</li>
+                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold mb-8">Name: </span> {{$application->name}}</li>
+                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold mb-8">Email: </span> {{$application->email}}</li>
+                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold mb-8">Resume: </span><a href="/storage/{{$application->cv}}" class="text-purple-800">Click The Link</a></li>
+                        <li class="  border-solid border-b-2 border-gray-400 "><span class="text-gray-900 font-bold mb-8">Portfolio: </span> {{$application->name}}</li>
                       
                     </ul>
                    
