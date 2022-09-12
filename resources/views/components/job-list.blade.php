@@ -7,7 +7,7 @@
       <div class="block rounded-lg shadow-lg bg-white">
         <div class="flex flex-wrap items-center">
           <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-            <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/088.jpg" alt="Trendy Pants and Shoes"
+            <img src="{{$listing->photo ? asset('storage/' . $listing->photo) : asset('/images/no-image.png')}}" alt="Trendy Pants and Shoes"
               class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
           </div>
           <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
