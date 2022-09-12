@@ -1,6 +1,6 @@
 <footer class="bg-black mt-4">
     <div class="container p-4 text-white mx-auto">
-        <h1 class="text-2xl mb-4" >Joblists</h1>
+        <h1 class="text-2xl mb-4 font-bold" >Joblists</h1>
         <div class="flex">
             <div class="flex-grow flex flex-col">
                 <a href="/#home">Boom</a>
