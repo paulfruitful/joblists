@@ -11,7 +11,7 @@
             <div class="flex-grow flex flex-col">
                 <a href="#">APIs</a>
                 <a href="#">Listings</a>
-                <a href="#">Boom</a>
+                <a href="#">Github</a>
             </div>
            
         </div>
