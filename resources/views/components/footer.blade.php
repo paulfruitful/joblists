@@ -14,17 +14,7 @@
                 <a href="#">Boom</a>
                 <a href="#">Boom</a>
             </div>
-            <div class="flex-grow flex flex-col">
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-            </div>
-            <div class="flex-grow flex flex-col">
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-            </div>
+           
         </div>
         <div class="text-right text-xs py-4">
             <a href="https://github.com/paulfruitful">@ 2022 Paul Fruitful.</a>
