@@ -22,4 +22,3 @@
  <div class="p-6 items-center"><p class="text-red-700">No Listings</p></div>
 @endif
     </div>
- <x-footer/>
