@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="text-right text-xs py-4">
-            <a href="">&copy;2021 Someco Inc.</a>
+            <a href="">&copy;2022 Paul Fruitful.</a>
         </div>
     </div>
 </footer>
