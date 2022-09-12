@@ -3,10 +3,10 @@
         <h1 class="text-2xl mb-4 font-bold" >Joblists</h1>
         <div class="flex">
             <div class="flex-grow flex flex-col">
-                <a href="/#home">Boom</a>
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
-                <a href="#">Boom</a>
+                <a href="/">Home</a>
+                <a href="#">Jobs</a>
+                <a href="#">Applications</a>
+               
             </div>
             <div class="flex-grow flex flex-col">
                 <a href="#">Boom</a>
