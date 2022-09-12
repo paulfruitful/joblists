@@ -46,6 +46,7 @@ Route::get('/manage',function(){
 Route::get('/applications',[applicationControl::class,'index'])->middleware('auth');
 //Route To view application data 
 Route::get('/applications/{application}',[applicationControl::class,'show'])->middleware('auth');
+Route::post('/applications/{application}/accept',[applicationControl::class,'accept'])->middleware('auth');
 //The route to get the listing creation form 
 Route::get('/create',[listControl::class,'create'])->middleware('auth');
 //The route to create a job listing
