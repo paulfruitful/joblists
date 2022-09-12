@@ -107,3 +107,4 @@
     @else
 
     @endif
+    <x-footer/>
