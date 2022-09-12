@@ -62,7 +62,7 @@
                     <hr class="my-5">
                     <section class="min-h-screen" id="orders">
                         <h1 class="text-2xl mt-5">Cover Letter</h1>
-                        <p class="pb-4">Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                        <p class="pb-4">{{$application->coverletter}}</p>
                   </section>
                    
                 </main>
