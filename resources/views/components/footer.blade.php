@@ -1,4 +1,4 @@
-<footer class="bg-black mt-auto">
+<footer class="bg-black mt-4">
     <div class="container p-4 text-white mx-auto">
         <h1 class="text-2xl" >Footer</h1>
         <div class="flex">
