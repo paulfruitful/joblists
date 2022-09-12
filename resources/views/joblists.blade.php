@@ -26,4 +26,5 @@
         <x-nav-nav/>
         <p class="m-4"></p>
     <x-listing-comp :listing="$list"/>
+    <x-footer/>
     </body>
