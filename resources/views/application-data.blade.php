@@ -59,7 +59,7 @@
                       
                     </ul>
                    
-                    <hr class="my-5">
+                    <hr class="my-2">
                     <section class="min-h-screen" id="orders">
                         <h1 class="text-2xl mt-5">Cover Letter</h1>
                         <p class="pb-4">{{$application->coverletter}}</p>
