@@ -56,5 +56,6 @@
          <div class="p-6 text-center items-center"><p class="text-red-700 absolute text-center text-3xl font-bold">No Listings</p></div>
         @endif
             </div>
+        <x-footer/>
     </body>
 </html>
