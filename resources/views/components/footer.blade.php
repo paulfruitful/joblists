@@ -4,14 +4,14 @@
         <div class="flex">
             <div class="flex-grow flex flex-col">
                 <a href="/">Home</a>
-                <a href="#">Jobs</a>
-                <a href="#">Applications</a>
+                <a href="/listings">Jobs</a>
+                <a href="/manage">Applications</a>
                
             </div>
             <div class="flex-grow flex flex-col">
-                <a href="#">APIs</a>
-                <a href="#">Listings</a>
-                <a href="#">Github</a>
+                <a href="/api">APIs</a>
+                <a href="/">Listings</a>
+                <a href="github.com/paulfruitful">Github</a>
             </div>
            
         </div>
