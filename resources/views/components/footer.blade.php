@@ -10,7 +10,7 @@
             </div>
             <div class="flex-grow flex flex-col">
                 <a href="/api">APIs</a>
-                <a href="/">Listings</a>
+                <a href="/manage">Listings</a>
                 <a href="github.com/paulfruitful">Github</a>
             </div>
            
