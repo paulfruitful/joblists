@@ -54,8 +54,7 @@ Route::get('/applications/{application}','show');
 Route::post('/applications/{application}/accept','accept');
 Route::post('/applications/{application}/reject','reject');
 });
-//The route to get the listing creation form 
-});
+//The route to get the listing creation form
 Route::controller([listControl::class])->group(function(){
 
 Route::get('/create','create');
@@ -69,7 +68,9 @@ Route::get('/{listing}/edit','edit');
 Route::put('/{listing}/edit','update');
 //The route to the deletion of a listing
 Route::delete('/{listing}/delete','destroy');
+}); 
 });
+
 //The route to the application form
 Route::get('/{listing}/apply',[applicationControl::class,'create']);
 //Route to post user application data to database
