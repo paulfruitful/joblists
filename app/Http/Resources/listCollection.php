@@ -14,6 +14,11 @@ class listCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'title'=>$this->title,
+            'company'=>$this->company,
+            ''
+
+        ];
     }
 }
