@@ -20,7 +20,9 @@ class acceptNotify extends Notification
      */
     public function __construct($listing,$application)
     {
-        //
+        $this->application=$applicaton;
+        $this->listing=$listing;
+        $this->message=$message;
     }
 
     /**
