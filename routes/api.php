@@ -2,6 +2,7 @@
 
 use App\Models\Listing;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Route;
 use App\Http\Resources\listCollection;
 
@@ -20,5 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/listing',function(){
-    return listCollection::collection(Listing::all());
+    return Cache::remember('listings',60*60*24,function(){
+        listCollection::collection(Listing::all())
+    });
 });
