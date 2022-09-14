@@ -52,6 +52,7 @@ Route::get('/applications','index');
 Route::get('/applications/{application}','show');
 //Route to accept the application
 Route::post('/applications/{application}/accept','accept');
+//Route to reject the application
 Route::post('/applications/{application}/reject','reject');
 //The route to the application form
 Route::get('/{listing}/apply','create');
