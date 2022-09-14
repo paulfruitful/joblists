@@ -10,7 +10,9 @@ use Illuminate\Notifications\Notification;
 class acceptNotify extends Notification
 {
     use Queueable;
-
+    private $listing;
+    private $application;
+    
     /**
      * Create a new notification instance.
      *
