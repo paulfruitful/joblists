@@ -56,20 +56,20 @@ Route::post('/applications/{application}/reject','reject');
 });
 //The route to get the listing creation form 
 });
-Route::controller([applicationControl::class])->group(function(){
+Route::controller([listControl::class])->group(function(){
 
-});
 Route::get('/create','create');
 //The route to create a job listing
 Route::post('/create', 'store');
 //The route to get an individual listing
 Route::get('/{listing}','show');
 //The route to get the edit listing form view
-Route::get('/{listing}/edit',[listControl::class,'edit']);
+Route::get('/{listing}/edit','edit');
 //The route for the edit listing action
-Route::put('/{listing}/edit',[listControl::class,'update']);
+Route::put('/{listing}/edit','update');
 //The route to the deletion of a listing
-Route::delete('/{listing}/delete',[listControl::class,'destroy']);
+Route::delete('/{listing}/delete','destroy');
+});
 //The route to the application form
 Route::get('/{listing}/apply',[applicationControl::class,'create']);
 //Route to post user application data to database
