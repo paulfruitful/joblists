@@ -53,6 +53,10 @@ Route::get('/applications','index');
 Route::get('/applications/{application}','show');
 Route::post('/applications/{application}/accept','accept');
 Route::post('/applications/{application}/reject','reject');
+//The route to the application form
+Route::get('/{listing}/apply','create');
+//Route to post user application data to database
+Route::post('/{listing}/apply','store');
 });
 
 Route::controller([listControl::class])->group(function(){
@@ -70,8 +74,3 @@ Route::put('/{listing}/edit','update');
 Route::delete('/{listing}/delete','destroy');
 }); 
 });
-
-//The route to the application form
-Route::get('/{listing}/apply','create');
-//Route to post user application data to database
-Route::post('/{listing}/apply','store');
