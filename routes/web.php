@@ -45,11 +45,15 @@ Route::get('/manage',function(){
         'listings'=>auth()->user()->listing
     ]);
 });
+Route::controller([applicationControl::class])->group(function(){
+
 Route::get('/applications',[applicationControl::class,'index']);
 //Route To view application data 
+
 Route::get('/applications/{application}',[applicationControl::class,'show']);
 Route::post('/applications/{application}/accept',[applicationControl::class,'accept']);
 Route::post('/applications/{application}/reject',[applicationControl::class,'reject']);
+});
 //The route to get the listing creation form 
 });
 Route::get('/create',[listControl::class,'create'])->middleware('auth');
