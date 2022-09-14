@@ -56,6 +56,9 @@ Route::post('/applications/{application}/reject','reject');
 });
 //The route to get the listing creation form 
 });
+Route::controller([applicationControl::class])->group(function(){
+
+});
 Route::get('/create',[listControl::class,'create'])->middleware('auth');
 //The route to create a job listing
 Route::post('/create', [listControl::class,'store'])->middleware('auth');
