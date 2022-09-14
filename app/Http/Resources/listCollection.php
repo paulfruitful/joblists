@@ -17,7 +17,10 @@ class listCollection extends ResourceCollection
         return [
             'title'=>$this->title,
             'company'=>$this->company,
-            ''
+            'description'=>$this->description,
+            'website'=>$this->website,
+            'email'=>$this->email,
+            'location'=>$this->location
 
         ];
     }
