@@ -59,11 +59,11 @@ Route::post('/applications/{application}/reject','reject');
 Route::controller([applicationControl::class])->group(function(){
 
 });
-Route::get('/create',[listControl::class,'create']);
+Route::get('/create','create');
 //The route to create a job listing
-Route::post('/create', [listControl::class,'store']);
+Route::post('/create', 'store');
 //The route to get an individual listing
-Route::get('/{listing}',[listControl::class,'show']);
+Route::get('/{listing}','show');
 //The route to get the edit listing form view
 Route::get('/{listing}/edit',[listControl::class,'edit']);
 //The route for the edit listing action
