@@ -59,18 +59,18 @@ Route::post('/applications/{application}/reject','reject');
 Route::controller([applicationControl::class])->group(function(){
 
 });
-Route::get('/create',[listControl::class,'create'])->middleware('auth');
+Route::get('/create',[listControl::class,'create']);
 //The route to create a job listing
-Route::post('/create', [listControl::class,'store'])->middleware('auth');
+Route::post('/create', [listControl::class,'store']);
 //The route to get an individual listing
-Route::get('/{listing}',[listControl::class,'show'])->middleware('auth');
+Route::get('/{listing}',[listControl::class,'show']);
 //The route to get the edit listing form view
-Route::get('/{listing}/edit',[listControl::class,'edit'])->middleware('auth');
+Route::get('/{listing}/edit',[listControl::class,'edit']);
 //The route for the edit listing action
-Route::put('/{listing}/edit',[listControl::class,'update'])->middleware('auth');
+Route::put('/{listing}/edit',[listControl::class,'update']);
 //The route to the deletion of a listing
-Route::delete('/{listing}/delete',[listControl::class,'destroy'])->middleware('auth');
+Route::delete('/{listing}/delete',[listControl::class,'destroy']);
 //The route to the application form
-Route::get('/{listing}/apply',[applicationControl::class,'create'])->middleware('auth');
+Route::get('/{listing}/apply',[applicationControl::class,'create']);
 //Route to post user application data to database
-Route::post('/{listing}/apply',[applicationControl::class,'store'])->middleware('auth');
+Route::post('/{listing}/apply',[applicationControl::class,'store']);
