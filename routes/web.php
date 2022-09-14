@@ -49,7 +49,6 @@ Route::controller([applicationControl::class])->group(function(){
 
 Route::get('/applications','index');
 //Route To view application data 
-
 Route::get('/applications/{application}','show');
 Route::post('/applications/{application}/accept','accept');
 Route::post('/applications/{application}/reject','reject');
