@@ -36,7 +36,7 @@ Route::get('/listings',function(){
         'list'=>Listing::latest()->get()
     ]);
 })->middleware('auth');
-
+//Manage all user listings
 Route::get('/manage',function(){
  
     return view('manage',[
