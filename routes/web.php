@@ -47,12 +47,12 @@ Route::get('/manage',function(){
 });
 Route::controller([applicationControl::class])->group(function(){
 
-Route::get('/applications',[applicationControl::class,'index']);
+Route::get('/applications','index');
 //Route To view application data 
 
 Route::get('/applications/{application}','show');
-Route::post('/applications/{application}/accept',[applicationControl::class,'accept']);
-Route::post('/applications/{application}/reject',[applicationControl::class,'reject']);
+Route::post('/applications/{application}/accept','accept');
+Route::post('/applications/{application}/reject','reject');
 });
 //The route to get the listing creation form 
 });
