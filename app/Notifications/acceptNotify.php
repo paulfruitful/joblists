@@ -12,13 +12,13 @@ class acceptNotify extends Notification
     use Queueable;
     private $listing;
     private $application;
-
+    private $message;
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct($listing,$application)
+    public function __construct($listing,$application,$message)
     {
         $this->application=$applicaton;
         $this->listing=$listing;
