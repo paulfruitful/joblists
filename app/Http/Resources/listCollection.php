@@ -3,7 +3,7 @@ namespace App\Http\Resources;
  
 use Illuminate\Http\Resources\Json\JsonResource;
  
-class listingCollection extends JsonResource
+class listCollection extends JsonResource
 {
     /**
      * Transform the resource collection into an array.
