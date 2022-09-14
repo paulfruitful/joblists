@@ -45,7 +45,7 @@ Route::get('/manage',function(){
         'listings'=>auth()->user()->listing
     ]);
 });
-Route::controller([applicationControl::class])->group(function(){
+Route::controller(applicationControl::class)->group(function(){
 
 Route::get('/applications','index');
 //Route To view application data 
@@ -60,7 +60,7 @@ Route::get('/{listing}/apply','create');
 Route::post('/{listing}/apply','store');
 });
 
-Route::controller([listControl::class])->group(function(){
+Route::controller(listControl::class)->group(function(){
 //The route to get the listing creation form
 Route::get('/create','create');
 //The route to create a job listing
