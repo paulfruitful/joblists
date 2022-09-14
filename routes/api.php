@@ -22,6 +22,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::get('/listing',function(){
     return Cache::remember('listings',60*60*24,function(){
-       return listCollection::collection(Listing::all())
+       return listCollection::collection(Listing::all());
     });
 });
