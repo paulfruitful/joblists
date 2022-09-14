@@ -72,6 +72,6 @@ Route::delete('/{listing}/delete','destroy');
 });
 
 //The route to the application form
-Route::get('/{listing}/apply',[applicationControl::class,'create']);
+Route::get('/{listing}/apply','create');
 //Route to post user application data to database
-Route::post('/{listing}/apply',[applicationControl::class,'store']);
+Route::post('/{listing}/apply','store');
