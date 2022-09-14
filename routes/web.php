@@ -36,15 +36,15 @@ Route::get('/listings',function(){
         'list'=>Listing::latest()->get()
     ]);
 })->middleware('auth');
+
+Route::middleware(['auth'])->group(function(){
 //Manage all user listings
 Route::get('/manage',function(){
  
     return view('manage',[
         'listings'=>auth()->user()->listing
     ]);
-})->middleware('auth');
-Route::middleware(['auth'])->group(function(){
-
+});
 Route::get('/applications',[applicationControl::class,'index']);
 //Route To view application data 
 Route::get('/applications/{application}',[applicationControl::class,'show']);
