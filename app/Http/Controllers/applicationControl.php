@@ -57,4 +57,7 @@ class applicationControl extends Controller
             'application'=>$application
         ]);
     }
+    public function accept(Request $request, application $application){
+        
+    }
 }
