@@ -54,9 +54,9 @@ Route::get('/applications/{application}','show');
 Route::post('/applications/{application}/accept','accept');
 Route::post('/applications/{application}/reject','reject');
 });
-//The route to get the listing creation form
-Route::controller([listControl::class])->group(function(){
 
+Route::controller([listControl::class])->group(function(){
+//The route to get the listing creation form
 Route::get('/create','create');
 //The route to create a job listing
 Route::post('/create', 'store');
