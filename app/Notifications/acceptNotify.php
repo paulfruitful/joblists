@@ -45,7 +45,8 @@ class acceptNotify extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('Update On Your Application To' .$this->listing->company)
+                    ->subject('Update On Your Application To'.' '.$this->listing->company)
+                    ->greeting('We have an update from'.' '.$this->listing->company)
                     ->action('Notification Action', url('/'))
                     ->line('Thank you for using our application!');
     }
