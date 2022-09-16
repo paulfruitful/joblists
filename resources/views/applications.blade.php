@@ -24,10 +24,9 @@
     </head>
     <body>
         <x-nav-nav/>
+        <div class="mt-8 text-center font-bold text-3xl"><p>Applications Received</p></div>
         <div class="max-w-full mt-4">
       
-          </tr>
-        </thead>
         <tbody>
      @if (count($applications)>0) 
      <div class="flex flex-col">
@@ -35,7 +34,7 @@
         <div class="py-4 inline-block min-w-full sm:px-6 lg:px-8">
           <div class="overflow-hidden">
             <table class="min-w-full text-center">
-              <thead class="border-b bg-gray-800">
+              <thead class="border-b bg-gray-900">
                 <tr>
                   <th scope="col" class="text-sm font-medium text-white px-6 py-4">
                     #
