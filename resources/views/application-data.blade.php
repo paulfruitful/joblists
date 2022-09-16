@@ -75,6 +75,7 @@
                  
                 </main>
             </div>
+            
         </div>
 <x-footer/>
     </body>
