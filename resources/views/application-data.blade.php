@@ -62,9 +62,8 @@
                     <hr class="my-2">
                     <section class="min-h-screen" id="orders">
                         <h1 class="text-2xl mt-5">Cover Letter</h1>
-                        <p class="pb-4">{{$application->coverletter}}</p>
-                  </section>
-                  <div class="flex-wrap">
+                        <p class="pb-4">{{$application->coverletter}}</p> 
+                        <div class="flex-wrap">
                     <div class="mx-auto"></div>
                        <form action="/{{$application->id}}/delete" method="post">
                      @csrf
@@ -72,6 +71,8 @@
                      <button type="submit" class="inline-flex bottom-0 right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-800 hover:bg-red-600">Delete</button>
                       <a href="/{{$application->id}}/edit" class="py-2 mx-4 px-4 bg-gray-900 text-white border hover:bg-gray-700 border-transparent rounded-md">Edit List</a>
                    </form> </div>
+                  </section>
+                 
                 </main>
             </div>
         </div>
