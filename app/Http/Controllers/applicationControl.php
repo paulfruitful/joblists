@@ -59,5 +59,6 @@ class applicationControl extends Controller
     }
     public function accept(Request $request, application $application){
         
+        
     }
 }
