@@ -65,11 +65,11 @@
                         <p class="pb-4">{{$application->coverletter}}</p> 
                         <div class="flex-wrap">
                     <div class="mx-auto"></div>
-                       <form action="applications/{{$application->id}}/reject" method="post">
+                       <form action="/applications/{{$application->id}}/reject" method="post">
                      @csrf
                      @method('DELETE')
                      <button type="submit" class="inline-flex bottom-0 right-0  justify-center relative py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-800 hover:bg-red-600">Reject Application</button>
-                      <a href="applications/{{$application->id}}/accept" class="py-2 mx-4 px-4 bg-green-900 text-white border hover:bg-gray-700 border-transparent rounded-md">Accept Application</a>
+                      <a href="/applications/{{$application->id}}/accept" class="py-2 mx-4 px-4 bg-green-900 text-white border hover:bg-gray-700 border-transparent rounded-md">Accept Application</a>
                    </form> </div>
                   </section>
                  

@@ -59,9 +59,10 @@ class applicationControl extends Controller
         ]);
     }
     public function reject(Request $request, application $application){
+        
+        //Notification::send($application,new reject($application));
         $application->delete();
-        Notification::send($application,new reject($application));
-      
+      return redirect('/applications');
 
     }
 }
