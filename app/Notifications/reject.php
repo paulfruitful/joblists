@@ -48,8 +48,12 @@ class reject extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
+                    ->subject('Update on your Application to'.' '. $this->company)
+                    ->greeting('Dear,'.' '.$this->name)
+                    ->line('Unfortunately your application for the '.' '.$this->title.' '.'position was not accepted.')
+                    ->line('We are sorry for turning your application down but it was due to the reason the position was not available for you')
+                    ->line('We wish you goodluck in your future endeavours.')
+                    ->action('Search For Jobs', url('/listings'))
                     ->line('Thank you for using our application!');
     }
 
