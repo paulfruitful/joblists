@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Listing;
 use App\Models\application;
-use App\Notifications\newApplication;
 use Illuminate\Http\Request;
+use App\Notifications\reject;
+use App\Notifications\newApplication;
 use App\Notifications\Successfulapplication;
 use Illuminate\Support\Facades\Notification;
 
@@ -57,8 +58,10 @@ class applicationControl extends Controller
             'application'=>$application
         ]);
     }
-    public function accept(Request $request, application $application){
-        
-        
+    public function reject(Request $request, application $application){
+        $application->delete();
+        Notification::send($application,new reject($application));
+      
+
     }
 }
