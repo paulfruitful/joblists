@@ -10,15 +10,22 @@ use Illuminate\Notifications\Notification;
 class reject extends Notification
 {
     use Queueable;
+    private $application;
 
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($application)
     {
         //
+        $this->application=$application;
+        $this->name=$this->application->name;
+        
+        $this->company=$this->application->listing->company;
+        
+        $this->title=$this->application->listing->title;
     }
 
     /**
