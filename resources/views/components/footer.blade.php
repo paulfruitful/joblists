@@ -16,7 +16,7 @@
            
         </div>
         <div class="text-right text-xs py-4">
-            <a href="https://github.com/paulfruitful">@ 2022 Paul Fruitful.</a>
+            <a href="https://paulfruitful.netlify.com">@ 2022 Paul Fruitful.</a>
         </div>
     </div>
 </footer>
