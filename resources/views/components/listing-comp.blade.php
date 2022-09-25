@@ -2,7 +2,7 @@
 <div class="text-center">
     <h1 class="text-black text-2xl font-bold tracking-tight mb-12 ">Current Job Listings</h1>
 </div>
-    <div class="max-w-sm items-center">
+    <div class="min-w-sm items-center">
         @if(count($listing)>0)
 @foreach ($listing as $list)
     
