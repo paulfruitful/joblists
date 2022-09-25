@@ -16,9 +16,9 @@ class newJobNotify extends Notification
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($user)
     {
-        //
+        $this->user=$user;
     }
 
     /**
@@ -40,10 +40,14 @@ class newJobNotify extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)
-                    ->line('The introduction to the notification.')
-                    ->action('Notification Action', url('/'))
-                    ->line('Thank you for using our application!');
+        return (new MailMessage)   
+        ->subject('We Have New Jobs Available')
+         ->greeting('Explore Our New Jobs'.' '.$this->user->name)
+        ->line('Joblists was created for you to get flexible internships and remote jobs.')
+        ->line('No matter your level in programming you have a chance at Joblists!')
+        ->line('Smash the view jobs button and explore our latest Job offers.')
+        ->action('View Jobs', url('/listings'))
+        ->line('Thanks For Using Joblists');
     }
 
     /**
