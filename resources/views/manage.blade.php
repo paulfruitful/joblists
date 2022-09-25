@@ -26,11 +26,11 @@
         <x-nav-nav/>
       
                 <div class="text-center">
-            <h1 class="text-white text-2xl font-bold tracking-tight mb-12  p-6 bg-gray-900 ">Your Job Listings <span class="bg-white text-black ml-4 p-4 rounded-full relative">{{$listings->count()}}</span></h1>
+            <h1 class="text-black text-2xl font-bold tracking-tight mb-12  p-6  ">Your Job Listings <span class="bg-gray-900 text-white ml-4 p-4 rounded-full relative">{{$listings->count()}}</span></h1>
         </div>
             <div class="max-w-sm items-center">
              
-                @if(count($listings)>1)
+                @if(count($listings)>0)
         @foreach ($listings as $list)
              <a href="/{{$list->id}}">   
         
@@ -56,6 +56,7 @@
          <div class="p-6 text-center items-center"><p class="text-red-700 absolute text-center text-3xl font-bold">No Listings</p></div>
         @endif
             </div>
-        <x-footer/>
-    </body>
+      
+    </body> 
+     <x-footer/>
 </html>

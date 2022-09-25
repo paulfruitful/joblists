@@ -3,7 +3,7 @@
     <h1 class="text-black text-2xl font-bold tracking-tight mb-12 ">Current Job Listings</h1>
 </div>
     <div class="max-w-sm items-center">
-        @if(count($listing)>1)
+        @if(count($listing)>0)
 @foreach ($listing as $list)
     
 
@@ -19,6 +19,8 @@
     
 @else
     
- <div class="p-6 items-center"><p class="text-red-700">No Listings</p></div>
+ <div class="p-6 items-center"><p class="text-red-700">No Jobs Available</p></div>
 @endif
     </div>
+
+   
