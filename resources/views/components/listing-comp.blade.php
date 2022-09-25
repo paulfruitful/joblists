@@ -9,7 +9,7 @@
 
 <div class="max-w-sm relative">
     <a href="/{{$list->id}}">
-<div class="border-2 relative border-gray box-content block border-rounded overflow-hidden p-6 mb-4 flex hover:border-gray-900 w-screen shadow-lg shadow-blacks  ">
+<div class="border-2 relative border-gray box-content block border-rounded overflow-hidden p-12 mb-4 flex hover:border-gray-900 w-screen shadow-lg shadow-blacks  ">
    <a href="/{{$list->id}}"> <h2 class="text-2xl text-black  " >{{$list->title}}</h2></a>
   
 </div></a>
