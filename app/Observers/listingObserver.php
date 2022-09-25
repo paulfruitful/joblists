@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Listing;
+use App\Models\User;
 use Illuminate\Support\Facades\Cache;
 
 class listingObserver
@@ -16,5 +17,9 @@ class listingObserver
     public function created(Listing $listing)
     {
         Cache::forget('listings');
+        $user=User::all();
+        foreach($user as $u){
+
+        }
     }
 }
