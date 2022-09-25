@@ -18,7 +18,9 @@ use App\Http\Controllers\userController;
 use App\Http\Controllers\applicationControl;
 use App\Models\User;
 use Illuminate\Http\Request;
-
+Route::get('/check',function(){
+    return response()->json([User::all()]);
+});
 Route::get('/', [listControl::class,'index']);
 //Gets the registration page
 Route::get('/register',[userController::class,'create']);
@@ -78,7 +80,4 @@ Route::put('/{listing}/edit','update');
 //The route to the deletion of a listing
 Route::delete('/{listing}/delete','destroy');
 }); 
-});
-Route::get('/checker',function(){
-    return response()->json([User::all()]);
 });
