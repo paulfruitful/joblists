@@ -11,7 +11,7 @@
             <div class="flex-grow flex flex-col">
                 <a href="/api">APIs</a>
                 <a href="/manage">Listings</a>
-                <a href="https:/github.com/paulfruitful">Github</a>
+                <a href="mailto:fruitful2007@outlook.com">Get Source Code</a>
             </div>
            
         </div>
