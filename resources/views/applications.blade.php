@@ -80,5 +80,6 @@
      @endif 
     </div>
     </body>
-    <x-footer/> 
+    
     </html>
+    <x-footer/> 
