@@ -1,6 +1,6 @@
 @props(['listing'])
 <div class="text-center">
-    <h1 class="text-black text-2xl font-bold tracking-tight mb-12 ">Current Job Listings</h1>
+    <h1 class="text-black text-2xl font-bold tracking-tight mb-12 mt-4 ">Current Job Listings</h1>
 </div>
     <div class="min-w-sm items-center">
         @if(count($listing)>0)
