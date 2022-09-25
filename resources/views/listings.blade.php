@@ -1,8 +1,8 @@
 @extends('layouts.boiler')
 @section('content')
-<div class="p-6">
+<div>
     <x-listing-comp :listing="$list"/>
-    <div class="">
+    <div class="p-6">
         {!!$list->links()!!}
     </div>
 </div>
