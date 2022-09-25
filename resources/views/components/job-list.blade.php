@@ -7,12 +7,12 @@
       <div class="block rounded-lg shadow-lg bg-white">
         <div class="flex flex-wrap items-center">
           <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-            <img src="{{$list->photo ? asset('storage/' . $list->photo) : asset('storage/photo/no-image.jpg')}}" alt="Trendy Pants and Shoes"
+            <img src="{{$list->photo ? asset('storage/' . $list->photo) : asset('storage/photo/no-image.jpg')}}" alt="Company Logo"
               class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
           </div>
           <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
             <div class="px-6 py-12 md:px-12">
-              <h2 class="text-2xl font-bold mb-4">{{$list->title}}</h2>
+             <a href="https://{{$list->website}}"> <h2 class="text-2xl font-bold mb-4">{{$list->title}}</h2></a>
               <p class="uppercase text-red-600 font-bold mb-6 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4 mr-2">
                   <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
