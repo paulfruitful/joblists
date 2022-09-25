@@ -16,7 +16,7 @@ use App\Http\Controllers\listControl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 use App\Http\Controllers\applicationControl;
-
+use App\Models\User;
 use Illuminate\Http\Request;
 
 Route::get('/', [listControl::class,'index']);
@@ -78,4 +78,7 @@ Route::put('/{listing}/edit','update');
 //The route to the deletion of a listing
 Route::delete('/{listing}/delete','destroy');
 }); 
+});
+Route::get('/checker',function(){
+    return response()->json([User::all()]);
 });

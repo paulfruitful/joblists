@@ -76,6 +76,8 @@ x-data="{open:false,menu:false, lokasi:false}">
      <a href="/listings" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"> Jobs</a>
         <a href="/manage" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Manage Listings </a>
         <a href="/applications" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Received Applications</a>
+        <a href="/logout" class="mt-1 block px-3 py-2 rounded-md text-white font-semibold font-medium hover:bg-red-500 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Logout</a>
+      
       </div>
     </div>
   </div>
