@@ -2,7 +2,7 @@
 @section('content')
 <div class="p-6">
     <x-listing-comp :listing="$list"/>
-    <div class="p-2">
+    <div class="">
         {!!$list->links()!!}
     </div>
 </div>
