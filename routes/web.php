@@ -16,6 +16,9 @@ use App\Http\Controllers\listControl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\userController;
 use App\Http\Controllers\applicationControl;
+
+use Illuminate\Http\Request;
+
 Route::get('/', [listControl::class,'index']);
 //Gets the registration page
 Route::get('/register',[userController::class,'create']);
@@ -33,9 +36,10 @@ Route::post('/login',[userController::class,'login'])->name('login');
 //shows all available jobs
 Route::get('/listings',function(){
     return view('joblists',[
-        'list'=>Listing::latest()->get()
+        'list'=>Listing::latest()->filter(request(['tag', 'search']))->paginate(10)
     ]);
 })->middleware('auth');
+
 
 Route::middleware(['auth'])->group(function(){
 //Manage all user listings
