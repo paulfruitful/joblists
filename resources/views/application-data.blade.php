@@ -54,8 +54,8 @@
                     <ul class="mt-4">
                         <li class="  border-solid border-b-2 border-gray-400  mb-8"><span class="text-gray-900 font-bold ">Name: </span> {{$application->name}}</li>
                         <li class="  border-solid border-b-2 border-gray-400 mb-8"><span class="text-gray-900 font-bold ">Email: </span> {{$application->email}}</li>
-                        <li class="  border-solid border-b-2 border-gray-400 mb-8"><span class="text-gray-900 font-bold ">Resume: </span><a href="/storage/{{$application->cv}}" class="text-purple-800">Click The Link</a></li>
-                        <li class="  border-solid border-b-2 border-gray-400 mb-8"><span class="text-gray-900 font-bold ">Portfolio: </span> {{$application->name}}</li>
+                        <li class="  border-solid border-b-2 border-gray-400 mb-8"><span class="text-gray-900 font-bold ">Resume: </span><a href="/storage/{{$application->cv}}" class="text-white bg-indigo-900 p-6">Download Resume</a></li>
+                        <li class="  border-solid border-b-2 border-gray-400 mb-8"><span class="text-gray-900 font-bold ">Portfolio: </span> <a href="{{$application->portfolio}}"></a>{{$application->portfolio}}</li>
                       
                     </ul>
                    
