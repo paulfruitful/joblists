@@ -40,7 +40,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-gray-900 hover:text-gray-600" href="/#products">
+                                <a class="nav-link text-gray-900 hover:text-gray-600" href="https://{{$application->portfolio}}">
                                     <span class="fa fa-cart-plus mr-2"></span> Portfolio</a>
                             </li>
                            
