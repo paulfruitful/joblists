@@ -48,7 +48,7 @@ class userController extends Controller
             );
             if(auth()->attempt($form_data)){
                 $request->session()->regenerate();
-                return redirect('/')->with('success','Account Created Successfully');
+                return redirect('/')->with('success','Account Logged In Successfully');
 
             }
             return back()->withErrors(['email'=>'Invalid Login Details'])->onlyInput('email');
